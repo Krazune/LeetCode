@@ -7,9 +7,9 @@ class Solution
     public:
     std::vector<int> twoSum(std::vector<int>& numbers, int target)
     {
-        for(int firstIndex = 0; firstIndex <= numbers.size(); firstIndex++)
+        for(int firstIndex = 0; firstIndex < numbers.size(); firstIndex++)
         {
-            for(int secondIndex = 0; secondIndex <= numbers.size(); secondIndex++)
+            for(int secondIndex = 0; secondIndex < numbers.size(); secondIndex++)
             {
                 if(numbers[firstIndex] + numbers[secondIndex] == target && firstIndex != secondIndex)
                 {
