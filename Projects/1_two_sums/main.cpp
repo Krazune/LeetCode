@@ -6,13 +6,13 @@
 class Solution
 {
     public:
-    std::vector<int> twoSum(std::vector<int>& numbers, int target)
+    std::vector<int> twoSum(std::vector<int> &numbers, int target)
     {
-        for(int firstIndex = 0; firstIndex < numbers.size(); firstIndex++)
+        for (int firstIndex = 0; firstIndex < numbers.size(); firstIndex++)
         {
-            for(int secondIndex = 0; secondIndex < numbers.size(); secondIndex++)
+            for (int secondIndex = 0; secondIndex < numbers.size(); secondIndex++)
             {
-                if(numbers[firstIndex] + numbers[secondIndex] == target && firstIndex != secondIndex)
+                if (numbers[firstIndex] + numbers[secondIndex] == target && firstIndex != secondIndex)
                 {
                     return { firstIndex, secondIndex };
                 }
@@ -37,7 +37,7 @@ int main()
         results = solution.twoSum(numbers, 6);
         std::cout << '[' << results[0] << ", " << results[1] << ']';
     }
-    catch(std::runtime_error exception)
+    catch (std::runtime_error exception)
     {
         std::cout << exception.what();
     }
