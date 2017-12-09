@@ -35,7 +35,7 @@ int main()
     try
     {
         results = solution.twoSum(numbers, 6);
-        std::cout << '[' << results[0] << ", " << results[1] << ']';
+        std::cout << '[' << results[0] << ", " << results[1] << ']' << std::endl;
     }
     catch (std::runtime_error exception)
     {
