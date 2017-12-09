@@ -6,7 +6,7 @@
 class Solution
 {
     public:
-    std::vector<int> twoSum(std::vector<int> &numbers, int target)
+    std::vector<int> twoSum(std::vector<int> const &numbers, int target)
     {
         for (int firstIndex = 0; firstIndex < numbers.size(); firstIndex++)
         {
