@@ -1,7 +1,6 @@
-#include <cstdlib>
+// 1. Two Sum
 #include <vector>
-#include <iostream>
-#include <exception>
+#include <stdexcept>
 
 class Solution
 {
@@ -21,26 +20,3 @@ class Solution
         throw std::runtime_error("Sum not found.");
     }
 };
-
-int main()
-{
-    Solution solution;
-    std::vector<int> numbers;
-    std::vector<int> results;
-
-    numbers.push_back(2);
-    numbers.push_back(8);
-    numbers.push_back(4);
-
-    try
-    {
-        results = solution.twoSum(numbers, 6);
-        std::cout << '[' << results[0] << ", " << results[1] << ']' << std::endl;
-    }
-    catch (std::runtime_error exception)
-    {
-        std::cout << exception.what();
-    }
-
-    return EXIT_SUCCESS;
-}
