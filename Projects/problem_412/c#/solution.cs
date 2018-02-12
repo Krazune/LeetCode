@@ -1,4 +1,6 @@
 // 412. Fizz Buzz
+using System;
+
 public class Solution
 {
 	public IList<String> FizzBuzz(int quantity)
