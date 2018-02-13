@@ -11,3 +11,4 @@ Solutions for the LeetCode problems, using various languages.
 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_35/c%23/solution.cs)
 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_412/c%23/solution.cs)
 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_434/c++/solution.cpp)
+520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_520/c/solution.c)
