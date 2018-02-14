@@ -12,10 +12,8 @@ void moveZeroes(int* numbers, int size)
         }
         else if (offset > 0)
         {
-            {
-                numbers[index - offset] = numbers[index];
-                numbers[index] = 0;
-            }
+            numbers[index - offset] = numbers[index];
+            numbers[index] = 0;
         }
     }
 }
