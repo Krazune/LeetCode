@@ -15,3 +15,4 @@ Solutions for the LeetCode problems, using various languages.
 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_434/c++/solution.cpp)
 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_441/c++/solution.cpp)
 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_520/c/solution.c)
+771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_771/c++/solution.cpp)
