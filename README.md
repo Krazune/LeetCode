@@ -16,4 +16,5 @@ Solutions for the LeetCode problems, using various languages.
 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_441/c++/solution.cpp)
 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_520/c/solution.c)
 657 | [Judge Route Circle](https://leetcode.com/problems/judge-route-circle/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_657/c%23/solution.cs)
+693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_693/c%23/solution.cs)
 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_771/c++/solution.cpp)
