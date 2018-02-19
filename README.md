@@ -2,7 +2,7 @@
 Solutions for the LeetCode problems, using various languages.
 
 ## Problems
-\# | Title | Language(s)
+\# | Title | Solution
 --- | --- | ---
 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_1/c++/solution.cpp)
 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_2/c/solution.c)
