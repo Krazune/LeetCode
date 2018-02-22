@@ -15,6 +15,7 @@ Solutions for the LeetCode problems, using various languages.
 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_237/c++/solution.cpp)
 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_283/c/solution.c)
 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_344/c++/solution.cpp)
+345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_345/c++/solution.cpp)
 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_389/c/solution.c) / [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_389/c%23/solution.cs)
 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_412/c%23/solution.cs)
 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_434/c++/solution.cpp)
