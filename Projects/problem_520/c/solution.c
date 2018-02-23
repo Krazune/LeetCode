@@ -4,9 +4,9 @@
 
 int detectCapitalUse(char* word)
 {
-    int wordLength = strlen(word);
+    int l = strlen(word);
     
-    if (wordLength < 2)
+    if (l < 2)
     {
         return 1;
     }
@@ -15,10 +15,10 @@ int detectCapitalUse(char* word)
     {
         if (isupper(word[1]))
         {
-            int index = 2;
-            for ( ; index < wordLength; index++)
+            int i = 2;
+            for ( ; i < l; i++)
             {
-                if (islower(word[index]))
+                if (islower(word[i]))
                 {
                     return 0;
                 }
@@ -28,10 +28,10 @@ int detectCapitalUse(char* word)
         }
         else
         {
-            int index = 2;
-            for ( ; index < wordLength; index++)
+            int i = 2;
+            for ( ; i < l; i++)
             {
-                if (isupper(word[index]))
+                if (isupper(word[i]))
                 {
                     return 0;
                 }
@@ -42,10 +42,10 @@ int detectCapitalUse(char* word)
     }
     else
     {
-        int index = 1;
-        for ( ; index < wordLength; index++)
+        int i = 1;
+        for ( ; i < l; i++)
         {
-            if (isupper(word[index]))
+            if (isupper(word[i]))
             {
                 return 0;
             }
