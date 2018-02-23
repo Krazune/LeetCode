@@ -1,4 +1,5 @@
 // 771. Jewels and Stones
+#include <string>
 #include <unordered_set>
 
 class Solution
