@@ -9,17 +9,14 @@ class Solution
     public:
     int numJewelsInStones(string jewels, string stones)
     {
-        unordered_set<char> jewelsSet(jewels.begin(), jewels.end());
-        int jewelCount = 0;
+        unordered_set<char> j(jewels.begin(), jewels.end());
+        int c = 0;
         
-        for (int index = 0; index < stones.size(); index++)
+        for (int i = 0; index < stones.size(); i++)
         {
-            if (jewelsSet.count(stones[index]) == 1)
-            {
-                jewelCount++;
-            }
+            if (j.count(stones[i]) == 1) c++;
         }
         
-        return jewelCount;
+        return c;
     }
 };
