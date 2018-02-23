@@ -8,9 +8,9 @@ public class Solution
         foreach (char c in moves)
         {
             if (c == 'U') y++;
-            else if (c == 'L') x++;
+            else if (c == 'L') x--;
             else if (c == 'D') y--;
-            else x--;
+            else x++;
         }
         
         return x == 0 && y == 0;
