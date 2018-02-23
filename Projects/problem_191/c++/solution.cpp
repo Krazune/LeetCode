@@ -1,6 +1,8 @@
 // 191. Number of 1 Bits
 #include <cstdint>
 
+using namespace std;
+
 class Solution
 {
     public:
