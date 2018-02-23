@@ -1,4 +1,6 @@
 // 344. Reverse String
+#include <string>
+
 class Solution
 {
     public:
