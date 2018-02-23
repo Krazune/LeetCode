@@ -15,13 +15,11 @@ public class Solution
                     z = !z;
                     n >>= 1;
                 }
-                else
-                {
-                    return false;
-                }
+                else return false;
             }
             while (n > 0);
         }
+        
         return true;
     }
 }
