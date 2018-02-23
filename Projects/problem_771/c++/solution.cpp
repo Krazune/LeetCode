@@ -12,7 +12,7 @@ class Solution
         unordered_set<char> j(jewels.begin(), jewels.end());
         int c = 0;
         
-        for (int i = 0; index < stones.size(); i++)
+        for (int i = 0; i < stones.size(); i++)
         {
             if (j.count(stones[i]) == 1) c++;
         }
