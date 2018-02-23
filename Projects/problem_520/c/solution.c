@@ -1,22 +1,14 @@
 // 520. Detect Capital
-#include <string.h>
 #include <ctype.h>
 
 int detectCapitalUse(char* word)
 {
-    int l = strlen(word);
-    
-    if (l < 2)
-    {
-        return 1;
-    }
-    
     if (isupper(word[0]))
     {
         if (isupper(word[1]))
         {
             int i = 2;
-            for ( ; i < l; i++)
+            for ( ; word[i] != '\0'; i++)
             {
                 if (islower(word[i]))
                 {
@@ -28,8 +20,8 @@ int detectCapitalUse(char* word)
         }
         else
         {
-            int i = 2;
-            for ( ; i < l; i++)
+            int i = 1;
+            for ( ; word[i] != '\0'; i++)
             {
                 if (isupper(word[i]))
                 {
@@ -42,8 +34,8 @@ int detectCapitalUse(char* word)
     }
     else
     {
-        int i = 1;
-        for ( ; i < l; i++)
+        int i = 0;
+        for ( ; word[i] != '\0'; i++)
         {
             if (isupper(word[i]))
             {
