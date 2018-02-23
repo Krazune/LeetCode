@@ -1,19 +1,19 @@
 // 283. Move Zeroes
 void moveZeroes(int* numbers, int size)
 {
-    int offset = 0;
-    int index = 0;
+    int o = 0;
+    int i = 0;
     
-    for ( ; index < size; index++)
+    for ( ; i < size; i++)
     {
-        if (numbers[index] == 0)
+        if (numbers[i] == 0)
         {
-            offset++;
+            o++;
         }
-        else if (offset > 0)
+        else if (o > 0)
         {
-            numbers[index - offset] = numbers[index];
-            numbers[index] = 0;
+            numbers[i - o] = numbers[i];
+            numbers[i] = 0;
         }
     }
 }
