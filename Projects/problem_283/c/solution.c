@@ -6,10 +6,7 @@ void moveZeroes(int* numbers, int size)
     
     for ( ; i < size; i++)
     {
-        if (numbers[i] == 0)
-        {
-            o++;
-        }
+        if (numbers[i] == 0) o++;
         else if (o > 0)
         {
             numbers[i - o] = numbers[i];
