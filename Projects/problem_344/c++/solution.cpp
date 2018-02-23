@@ -1,6 +1,8 @@
 // 344. Reverse String
 #include <string>
 
+using namespace std;
+
 class Solution
 {
     public:
