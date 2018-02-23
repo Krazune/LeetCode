@@ -21,6 +21,7 @@ Solutions for the LeetCode problems, using various languages.
 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_412/c%23/solution.cs)
 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_434/c++/solution.cpp)
 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_441/c++/solution.cpp)
+485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_485/c++/solution.cpp)
 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_520/c/solution.c)
 657 | [Judge Route Circle](https://leetcode.com/problems/judge-route-circle/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_657/c%23/solution.cs)
 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_693/c%23/solution.cs)
