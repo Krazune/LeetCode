@@ -1,4 +1,6 @@
 // 485. Max Consecutive Ones
+#include <vector>
+
 class Solution
 {
     public:
