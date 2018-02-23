@@ -1,6 +1,8 @@
 // 724. Find Pivot Index
 #include <vector>
 
+using namespace std;
+
 class Solution
 {
     public:
