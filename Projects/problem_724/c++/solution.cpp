@@ -1,4 +1,6 @@
 // 724. Find Pivot Index
+#include <vector>
+
 class Solution
 {
     public:
