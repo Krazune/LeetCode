@@ -2,12 +2,14 @@
 #include <string>
 #include <unordered_set>
 
+using namespace std;
+
 class Solution
 {
     public:
     int numJewelsInStones(string jewels, string stones)
     {
-        std::unordered_set<char> jewelsSet(jewels.begin(), jewels.end());
+        unordered_set<char> jewelsSet(jewels.begin(), jewels.end());
         int jewelCount = 0;
         
         for (int index = 0; index < stones.size(); index++)
