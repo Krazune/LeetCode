@@ -14,7 +14,7 @@ class Solution
         
         for (int i = 0; i < stones.size(); i++)
         {
-            if (j.count(stones[i]) == 1) c++;
+            if (j.find(stones[i]) != j.end()) c++;
         }
         
         return c;
