@@ -6,8 +6,7 @@ class Solution
     {
         for (int l = 0, r = inputString.size() - 1; l < r; )
         {
-            char ll = tolower(inputString[l]);
-            char rl = tolower(inputString[r]);
+            char ll = tolower(inputString[l]), rl = tolower(inputString[r]);
             
             if (ll == 'a' || ll == 'e' || ll == 'i' || ll == 'o' || ll == 'u')
             {
@@ -22,10 +21,7 @@ class Solution
             }
             else
             {
-                if (rl != 'a' && rl != 'e' && rl != 'i' && rl != 'o' && rl != 'u')
-                {
-                    r--;
-                }
+                if (rl != 'a' && rl != 'e' && rl != 'i' && rl != 'o' && rl != 'u') r--;
                 l++;
             }
         }
