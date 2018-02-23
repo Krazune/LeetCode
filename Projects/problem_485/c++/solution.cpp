@@ -1,6 +1,8 @@
 // 485. Max Consecutive Ones
 #include <vector>
 
+using namespace std;
+
 class Solution
 {
     public:
