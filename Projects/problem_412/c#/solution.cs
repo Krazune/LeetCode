@@ -6,31 +6,31 @@ public class Solution
 {
     public IList<String> FizzBuzz(int quantity)
     {
-        IList<String> wordList = new List<String>();
+        IList<String> l = new List<String>();
 
-        for (int number = 0, fizz = 1, buzz = 1; number < quantity; number++, fizz++, buzz++)
+        for (int i = 0, f = 1, b = 1; i < quantity; i++, f++, b++)
         {
-            if (fizz == 3)
+            if (f == 3)
             {
-                wordList.Add("Fizz");
-                fizz = 0;
+                l.Add("Fizz");
+                f = 0;
                 
-                if (buzz == 5)
+                if (b == 5)
                 {
-                    wordList[number] += "Buzz";
-                    buzz = 0;
+                    l[i] += "Buzz";
+                    b = 0;
                 }
             }
-            else if (buzz == 5)
+            else if (b == 5)
             {
-                wordList.Add("Buzz");
-                buzz = 0;
+                l.Add("Buzz");
+                b = 0;
             }
             else
             {
-                wordList.Add((number + 1).ToString());
+                l.Add((i + 1).ToString());
             }
         }
-        return wordList;
+        return l;
     }
 }
