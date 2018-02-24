@@ -14,7 +14,7 @@ public class Solution
             {
                 l.Add("Fizz");
                 f = 0;
-                
+
                 if (b == 5)
                 {
                     l[i] += "Buzz";
@@ -26,11 +26,9 @@ public class Solution
                 l.Add("Buzz");
                 b = 0;
             }
-            else
-            {
-                l.Add((i + 1).ToString());
-            }
+            else l.Add((i + 1).ToString());
         }
+
         return l;
     }
 }
