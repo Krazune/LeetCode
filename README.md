@@ -12,6 +12,7 @@ Solutions for the LeetCode problems, using various languages.
 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_27/c/solution.c)
 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_35/c%23/solution.cs)
 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_58/c%23/solution.cs)
+136 | [Single Number](https://leetcode.com/problems/single-number/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_136/c/solution.c)
 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_191/c++/solution.cpp)
 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_237/c++/solution.cpp)
 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_268/c/solution.c)
