@@ -1,4 +1,6 @@
 // 7. Reverse Integer
+#include <cstdint>
+
 class Solution
 {
     public:
