@@ -3,8 +3,7 @@ public class Solution
 {
     public int LengthOfLastWord(string s)
     {
-        int n = s.Length;
-        int t = 0;
+        int n = s.Length, int t = 0;
         bool w = false;
         
         for (int i = n - 1; i >= 0; i--)
@@ -16,6 +15,7 @@ public class Solution
             }
             else if (w) break;
         }
+        
         return t;
     }
 }
