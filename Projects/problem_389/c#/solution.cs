@@ -3,15 +3,10 @@ public class Solution
 {
     public char FindTheDifference(string s, string t)
     {
-        int n = 0;
-        int i = 0;
+        int n = 0, i = 0;
         
-        for (; i < s.Length; i++)
-        {
-            n -= s[i];
-            n += t[i];
-        }
+        for (; i < s.Length; i++) n ^= s[i] ^ t[i];
         
-        return (char)(n + t[i]);
+        return (char)(n ^ t[i]);
     }
 }
