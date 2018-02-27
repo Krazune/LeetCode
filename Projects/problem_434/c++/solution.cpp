@@ -21,10 +21,7 @@ class Solution
                     r++;
                 }
             }
-            else
-            {
-                s = false;
-            }
+            else s = false;
         }
         
         return r;
