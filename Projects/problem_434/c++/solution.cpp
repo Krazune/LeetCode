@@ -1,5 +1,4 @@
 // 434. Number of Segments in a String
-#include <cstdlib>
 #include <string>
 
 class Solution
