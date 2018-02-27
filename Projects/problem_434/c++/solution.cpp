@@ -1,10 +1,12 @@
 // 434. Number of Segments in a String
 #include <string>
 
+using namespace std;
+
 class Solution
 {
     public:
-    int countSegments(std::string input)
+    int countSegments(string input)
     {
         bool inSegment = false;
         int segmentCount = 0;
