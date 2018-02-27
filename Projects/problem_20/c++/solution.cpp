@@ -1,48 +1,32 @@
-// 20. Valid Parentheses
 #include <string>
 #include <stack>
+
+using namespace std;
 
 class Solution
 {
     public:
-    bool isValid(std::string symbols)
+    bool isValid(string symbols)
     {
-        std::stack<char> symbolOrder;
+        stack<char> s;
         
-        if (symbols.size() % 2 == 0)
-        {
-            for (char symbol : symbols)
-            {
-                if (symbol == '(')
-                {
-                    symbolOrder.push(')');
-                    continue;
-                }
-                else if (symbol == '[')
-                {
-                    symbolOrder.push(']');
-                    continue;
-                }
-                else if (symbol == '{')
-                {
-                    symbolOrder.push('}');
-                    continue;
-                }
-                else
-                {
-                    if (symbolOrder.size() == 0 || symbolOrder.top() != symbol)
-                    {
-                        return false;
-                    }
-                    symbolOrder.pop();
-                }
-            }
+        if (symbols.size() == 0) return true;
+        
+        if (symbols.size() % 2 != 0) return false;
 
-            if (symbolOrder.size() == 0)
+        for (char c : symbols)
+        {
+            if (c == '(') s.push(')');
+            else if (c == '[') s.push(']');
+            else if (c == '{') s.push('}');
+            else
             {
-                return true;
+                if (s.size() == 0 || s.top() != c) return false;
+                s.pop();
             }
         }
+
+        if (s.size() == 0) return true;
         
         return false;
     }
