@@ -1,22 +1,23 @@
 // 1. Two Sum
 #include <vector>
-#include <stdexcept>
+#include <unordered_map>
+
+using namespace std;
 
 class Solution
 {
     public:
-    std::vector<int> twoSum(std::vector<int> const &numbers, int target)
+    vector<int> twoSum(vector<int> const &numbers, int target)
     {
-        for (int firstIndex = 0; firstIndex < numbers.size(); firstIndex++)
+        unordered_map<int, int> l;
+        
+        for (int i = 0; i < numbers.size(); i++)
         {
-            for (int secondIndex = 0; secondIndex < numbers.size(); secondIndex++)
-            {
-                if (numbers[firstIndex] + numbers[secondIndex] == target && firstIndex != secondIndex)
-                {
-                    return { firstIndex, secondIndex };
-                }
-            }
+            auto f = l.find(target - numbers[i]);
+            
+            if (f != l.end() && f->second != i) return vector<int> {i, f->second};
+            
+            l.insert({numbers[i], i});
         }
-        throw std::runtime_error("Sum not found.");
     }
 };
