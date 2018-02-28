@@ -13,10 +13,7 @@ class Solution
             s += "(" + tree2str(t->left) + ")";
             s += "(" + tree2str(t->right) + ")";
         }
-        else if (t->left != NULL)
-        {
-            s += "(" + tree2str(t->left) + ")";
-        }
+        else if (t->left != NULL) s += "(" + tree2str(t->left) + ")";
         
         return s;
     }
