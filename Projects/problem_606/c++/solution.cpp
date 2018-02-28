@@ -1,4 +1,7 @@
 // 606. Construct String from Binary Tree
+#include <cstddef>
+#include <string>
+
 class Solution
 {
     public:
