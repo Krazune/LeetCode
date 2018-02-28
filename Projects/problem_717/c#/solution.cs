@@ -7,6 +7,6 @@ public class Solution
         
         for (int i = bits.Length - 2; i >= 0 && bits[i] == 1; i--) c++;
         
-        return (c % 2) == 0;
+        return c % 2 == 0;
     }
 }
