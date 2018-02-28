@@ -2,6 +2,8 @@
 #include <cstddef>
 #include <string>
 
+using namespace std;
+
 class Solution
 {
     public:
@@ -9,7 +11,7 @@ class Solution
     {
         if (t == NULL) return "";
         
-        std::string s = to_string(t->val);
+        string s = to_string(t->val);
         
         if (t->right != NULL)
         {
