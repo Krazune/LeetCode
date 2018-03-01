@@ -1,4 +1,8 @@
 // 504. Base 7
+#include <string>
+
+using namespace std;
+
 class Solution
 {
     public:
