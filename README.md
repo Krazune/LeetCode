@@ -26,6 +26,7 @@ Solutions for the LeetCode problems, using various languages.
 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_441/c++/solution.cpp)
 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_461/c++/solution.cpp)
 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_485/c++/solution.cpp)
+504 | [Base 7](https://leetcode.com/problems/base-7/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_504/c++/solution.cpp)
 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_520/c/solution.c)
 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_606/c++/solution.cpp)
 657 | [Judge Route Circle](https://leetcode.com/problems/judge-route-circle/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_657/c%23/solution.cs)
