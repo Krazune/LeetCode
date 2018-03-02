@@ -22,6 +22,7 @@ Solutions for the LeetCode problems, using various languages.
 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_283/c/solution.c)
 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_344/c++/solution.cpp)
 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_345/c++/solution.cpp)
+374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_374/c++/solution.cpp)
 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_389/c/solution.c) / [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_389/c%23/solution.cs)
 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_405/c++/solution.cpp)
 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_412/c%23/solution.cs)
