@@ -23,6 +23,7 @@ Solutions for the LeetCode problems, using various languages.
 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_344/c++/solution.cpp)
 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_345/c++/solution.cpp)
 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_389/c/solution.c) / [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_389/c%23/solution.cs)
+405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_405/c++/solution.cpp)
 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_412/c%23/solution.cs)
 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_434/c++/solution.cpp)
 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_441/c++/solution.cpp)
