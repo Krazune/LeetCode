@@ -29,6 +29,7 @@ Solutions for the LeetCode problems, using various languages.
 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_434/c++/solution.cpp)
 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_441/c++/solution.cpp)
 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_461/c++/solution.cpp)
+476 | [Number Complement](https://leetcode.com/problems/number-complement/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_476/c/solution.c)
 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_485/c++/solution.cpp)
 504 | [Base 7](https://leetcode.com/problems/base-7/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_504/c++/solution.cpp)
 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_520/c/solution.c)
