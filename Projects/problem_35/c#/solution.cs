@@ -5,16 +5,17 @@ public class Solution
 {
 	public int SearchInsert(int[] numbers, int target)
 	{
-		int targetIndex = 0;
+		int l = 0, r = numbers.Length - 1;
 
-		for ( ; targetIndex < numbers.Length; targetIndex++)
+		while (l <= r)
 		{
-			if (target <= numbers[targetIndex])
-			{
-				return targetIndex;
-			}
+			int m = l + (r - l) / 2;
+
+			if (numbers[m] == target) return m;
+			else if (numbers[m] > target) r = m - 1;
+			else l = m + 1;
 		}
 
-		return targetIndex;
+		return l;
 	}
 }
