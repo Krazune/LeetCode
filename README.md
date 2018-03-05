@@ -10,7 +10,7 @@ Solutions for the LeetCode problems, using various languages.
 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_7/c++/solution.cpp)
 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_20/c++/solution.cpp)
 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_27/c/solution.c)
-35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_35/c%23/solution.cs)
+35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_35/c/solution.c) / [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_35/c%23/solution.cs)
 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_58/c%23/solution.cs)
 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_125/c++/solution.cpp)
 136 | [Single Number](https://leetcode.com/problems/single-number/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_136/c/solution.c)
