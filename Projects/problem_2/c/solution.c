@@ -1,82 +1,47 @@
 // 2. Add Two Numbers
 #include <stdlib.h>
 
-struct ListNode
+struct ListNode* addTwoNumbers(struct ListNode* list1, struct ListNode* list2)
 {
-    int value;
-    struct ListNode *next;
-};
-
-struct ListNode* createNode(int value)
-{
-    struct ListNode *newNode = calloc(1, sizeof(struct ListNode *));
+    if (list1 == NULL && list2 == NULL) return NULL;
     
-    newNode->value = value;
+    struct ListNode *r = malloc(sizeof(struct ListNode)), *n = r, *b = NULL, *l1 = list1, *l2 = list2;
+    int c = 0;
     
-    return newNode;
-}
-
-void addNode(struct ListNode **list, int value)
-{
-    if (*list == NULL)
+    while (l1 != NULL || l2 != NULL)
     {
-        *list = createNode(value);
+        int d1 = 0, d2 = 0, s = 0;
+        
+        if (l1 != NULL)
+        {
+            d1 = l1->val;
+            l1 = l1->next;
+        }
+        
+        if (l2 != NULL)
+        {
+            d2 = l2->val;
+            l2 = l2->next;
+        }
+        
+        b = n;
+        s = (d1 + d2) % 10;
+        n->val = (s + c) % 10;
+        n->next = malloc(sizeof(struct ListNode));
+        n = n->next;
+        c = (d1 + d2 + c > 9) ? 1 : 0;
+    }
+    
+    if (c > 0)
+    {
+        n->val = 1;
+        n->next = NULL;
     }
     else
     {
-        struct ListNode *currentNode = *list;
-        
-        while (currentNode->next != NULL)
-        {
-            currentNode = currentNode->next;
-        }
-        
-        currentNode->next = createNode(value);
-    }
-}
-
-struct ListNode* addTwoNumbers(struct ListNode* list1, struct ListNode* list2)
-{
-    struct ListNode *result = NULL;
-    
-    if (list1 != NULL && list2 != NULL)
-    {
-        struct ListNode *currentNode1 = list1;
-        struct ListNode *currentNode2 = list2;
-        int value = 0;
-        int carry = 0;
-
-        do
-        {
-            if (currentNode1 == NULL)
-            {
-                value = currentNode2->value;
-                currentNode2 = currentNode2->next;
-            }
-            else
-            {
-                if (currentNode2 == NULL)
-                {
-                    value = currentNode1->value;
-                    currentNode1 = currentNode1->next;
-                }
-                else
-                {
-                    value = currentNode1->value + currentNode2->value;
-                    currentNode1 = currentNode1->next;
-                    currentNode2 = currentNode2->next;
-                }
-            }
-
-            addNode(&result, (value + carry) % 10);
-            carry = ((value + carry) > 9) ? 1 : 0;
-        } while (currentNode1 != NULL || currentNode2 != NULL);
-
-        if (carry > 0)
-        {
-            addNode(&result, carry);
-        }
+        b->next = NULL;
+        free(n);
     }
     
-    return result;
+    return r;
 }
