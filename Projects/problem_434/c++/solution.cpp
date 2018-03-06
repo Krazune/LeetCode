@@ -5,25 +5,25 @@ using namespace std;
 
 class Solution
 {
-    public:
-    int countSegments(string input)
-    {
-        bool s = false;
-        int r = 0;
-        
-        for (char c : input)
-        {
-            if (c != ' ')
-            {
-                if (!s)
-                {
-                    s = true;
-                    r++;
-                }
-            }
-            else s = false;
-        }
-        
-        return r;
-    }
+	public:
+	int countSegments(string input)
+	{
+		bool s = false;
+		int r = 0;
+		
+		for (char c : input)
+		{
+			if (c != ' ')
+			{
+				if (!s)
+				{
+					s = true;
+					r++;
+				}
+			}
+			else s = false;
+		}
+		
+		return r;
+	}
 };

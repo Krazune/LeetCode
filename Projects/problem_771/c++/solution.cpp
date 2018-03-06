@@ -6,17 +6,17 @@ using namespace std;
 
 class Solution
 {
-    public:
-    int numJewelsInStones(string jewels, string stones)
-    {
-        unordered_set<char> j(jewels.begin(), jewels.end());
-        int c = 0;
-        
-        for (int i = 0; i < stones.size(); i++)
-        {
-            if (j.find(stones[i]) != j.end()) c++;
-        }
-        
-        return c;
-    }
+	public:
+	int numJewelsInStones(string jewels, string stones)
+	{
+		unordered_set<char> j(jewels.begin(), jewels.end());
+		int c = 0;
+		
+		for (int i = 0; i < stones.size(); i++)
+		{
+			if (j.find(stones[i]) != j.end()) c++;
+		}
+		
+		return c;
+	}
 };

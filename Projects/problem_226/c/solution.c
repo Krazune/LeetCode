@@ -4,15 +4,15 @@
 
 struct TreeNode* invertTree(struct TreeNode* root)
 {
-    if (root == NULL) return NULL;
+	if (root == NULL) return NULL;
 
-    struct TreeNode* t = root->left;
+	struct TreeNode* t = root->left;
 
-    root->left = root->right;
-    root->right = t;
+	root->left = root->right;
+	root->right = t;
 
-    if (root->left != NULL) invertTree(root->left);
-    if (root->right != NULL) invertTree(root->right);
+	if (root->left != NULL) invertTree(root->left);
+	if (root->right != NULL) invertTree(root->right);
 
-    return root;
+	return root;
 }
