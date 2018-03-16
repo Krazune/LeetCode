@@ -9,6 +9,7 @@ Solutions for the LeetCode problems, using various languages.
 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_3/c%23/solution.cs)
 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_7/c++/solution.cpp)
 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_20/c++/solution.cpp)
+26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_26/c/solution.c)
 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_27/c/solution.c)
 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_35/c/solution.c) / [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_35/c%23/solution.cs)
 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_58/c%23/solution.cs)
