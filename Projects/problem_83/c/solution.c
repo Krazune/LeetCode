@@ -5,14 +5,13 @@ struct ListNode* deleteDuplicates(struct ListNode* head)
 {
 	if (head == NULL)  return head;
 
-	struct ListNode *c = head->next;
-	struct ListNode *u = head;
+	struct ListNode* c = head->next, *u = head;
 	
 	while (c != NULL)
 	{
 		if (c->val == u->val)
 		{
-			struct ListNode *t = c;
+			struct ListNode* t = c;
 			
 			c = c->next;
 			free(t);

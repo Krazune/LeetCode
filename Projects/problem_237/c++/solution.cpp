@@ -4,12 +4,10 @@ class Solution
 	public:
 	void deleteNode(ListNode* node)
 	{
-		if (node == NULL || node->next == NULL)
-		{
-			return;
-		}
+		if (node == NULL || node->next == NULL) return;
 		
 		ListNode* n = node->next->next;
+		
 		node->val = node->next->val;
 		delete node->next;
 		node->next = n;

@@ -5,7 +5,7 @@ struct ListNode* addTwoNumbers(struct ListNode* list1, struct ListNode* list2)
 {
 	if (list1 == NULL && list2 == NULL) return NULL;
 	
-	struct ListNode *r = malloc(sizeof(struct ListNode)), *n = r, *b = NULL, *l1 = list1, *l2 = list2;
+	struct ListNode* r = malloc(sizeof(struct ListNode)), *n = r, *b = NULL, *l1 = list1, *l2 = list2;
 	int c = 0;
 	
 	while (l1 != NULL || l2 != NULL)

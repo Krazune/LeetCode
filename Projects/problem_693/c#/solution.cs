@@ -6,6 +6,7 @@ public class Solution
 		if (n > 2)
 		{
 			bool z = ((n & 1) == 1);
+			
 			n >>= 1;
 			
 			do

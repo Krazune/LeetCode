@@ -18,6 +18,7 @@ class Solution
 				if (rl == 'a' || rl == 'e' || rl == 'i' || rl == 'o' || rl == 'u')
 				{
 					char t = inputString[l];
+					
 					inputString[l] = inputString[r];
 					inputString[r] = t;
 					l++;
