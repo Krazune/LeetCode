@@ -15,6 +15,7 @@ Solutions for the LeetCode problems, using various languages.
 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_58/c%23/solution.cs)
 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_83/c/solution.c)
 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_100/c/solution.c)
+101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_101/c++/solution.cpp)
 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_104/c/solution.c)
 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_125/c++/solution.cpp)
 136 | [Single Number](https://leetcode.com/problems/single-number/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_136/c/solution.c)
