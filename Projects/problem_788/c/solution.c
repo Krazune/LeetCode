@@ -1,9 +1,9 @@
 // 788. Rotated Digits
 int rotatedDigits(int N)
 {
-	int i = 1, c = 0;
+	int c = 0;
 	
-	for ( ; i <= N; i++)
+	for (int i = 1; i <= N; i++)
 	{
 		int n = i, g = 0;
 		

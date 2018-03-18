@@ -1,9 +1,7 @@
 // 283. Move Zeroes
 void moveZeroes(int* numbers, int size)
 {
-	int o = 0, i = 0;
-	
-	for ( ; i < size; i++)
+	for (int o = 0, i = 0; i < size; i++)
 	{
 		if (numbers[i] == 0) o++;
 		else if (o > 0)
