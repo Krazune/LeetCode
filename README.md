@@ -40,6 +40,7 @@ Solutions for the LeetCode problems, using various languages.
 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_520/c/solution.c)
 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_606/c++/solution.cpp)
 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_617/c++/solution.cpp)
+654 | [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_654/c++/solution.cpp)
 657 | [Judge Route Circle](https://leetcode.com/problems/judge-route-circle/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_657/c%23/solution.cs)
 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_693/c%23/solution.cs)
 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_717/c%23/solution.cs)
