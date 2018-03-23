@@ -45,6 +45,7 @@ Solutions for the LeetCode problems, using various languages.
 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_693/c%23/solution.cs)
 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | [C#](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_717/c%23/solution.cs)
 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_724/c++/solution.cpp)
+728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_728/c++/solution.cpp)
 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_771/c++/solution.cpp)
 788 | [Rotated Digits](https://leetcode.com/problems/rotated-digits/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_788/c/solution.c)
 796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_796/c++/solution.cpp)
