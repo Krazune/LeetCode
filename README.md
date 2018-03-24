@@ -38,6 +38,7 @@ Solutions for the LeetCode problems, using various languages.
 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_485/c++/solution.cpp)
 504 | [Base 7](https://leetcode.com/problems/base-7/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_504/c++/solution.cpp)
 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_520/c/solution.c)
+557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_557/c++/solution.cpp)
 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_606/c++/solution.cpp)
 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_617/c++/solution.cpp)
 654 | [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_654/c++/solution.cpp)
