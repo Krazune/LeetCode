@@ -23,11 +23,13 @@ class Solution
 					inputString[r] = t;
 					l++;
 				}
+				
 				r--;
 			}
 			else
 			{
 				if (rl != 'a' && rl != 'e' && rl != 'i' && rl != 'o' && rl != 'u') r--;
+				
 				l++;
 			}
 		}

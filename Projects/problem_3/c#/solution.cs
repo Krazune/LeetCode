@@ -5,25 +5,18 @@ public class Solution
 {
 	public int LongestSubstringLength(string inputString)
 	{
-		String longestSubstring = "";
-		String currentSubstring = "";
-		int repeatedCharacterIndex = -1;
+		String l = "", c = "";
+		int i = -1;
 
 		foreach (char character in inputString)
 		{
-			if ((repeatedCharacterIndex = currentSubstring.IndexOf(character)) != -1)
-			{
-				currentSubstring = currentSubstring.Remove(0, repeatedCharacterIndex + 1);
-			}
+			if ((i = c.IndexOf(character)) != -1) c = c.Remove(0, i + 1);
 
-			currentSubstring += character;
+			c += character;
 
-			if (currentSubstring.Length > longestSubstring.Length)
-			{
-				longestSubstring = currentSubstring;
-			}
+			if (c.Length > l.Length) l = c;
 		}
 
-		return longestSubstring.Length;
+		return l.Length;
 	}
 }

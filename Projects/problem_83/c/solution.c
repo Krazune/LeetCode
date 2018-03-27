@@ -3,7 +3,7 @@
 
 struct ListNode* deleteDuplicates(struct ListNode* head)
 {
-	if (head == NULL)  return head;
+	if (head == NULL) return head;
 
 	struct ListNode* c = head->next, *u = head;
 	

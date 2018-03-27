@@ -11,6 +11,7 @@ public class Solution
 			if (s[i] != ' ')
 			{
 				if (!w) w = true;
+				
 				t++;
 			}
 			else if (w) break;
