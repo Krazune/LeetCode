@@ -53,3 +53,4 @@ Solutions for the LeetCode problems, using various languages.
 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_771/c++/solution.cpp)
 788 | [Rotated Digits](https://leetcode.com/problems/rotated-digits/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_788/c/solution.c)
 796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_796/c++/solution.cpp)
+807 | [Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_807/c++/solution.cpp)
