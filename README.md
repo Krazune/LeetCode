@@ -54,5 +54,5 @@ Solutions for the LeetCode problems, using various languages.
 788 | [Rotated Digits](https://leetcode.com/problems/rotated-digits/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_788/c/solution.c)
 796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_796/c++/solution.cpp)
 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_804/c++/solution.cpp)
-806 | [Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_806/c++/solution.cpp)
+806 | [Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/) | [C](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_806/c/solution.c) / [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_806/c++/solution.cpp)
 807 | [Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/) | [C++](https://github.com/Krazune/LeetCode/blob/master/Projects/problem_807/c++/solution.cpp)
