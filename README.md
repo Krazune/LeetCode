@@ -42,6 +42,7 @@ Solutions for the LeetCode problems, using various languages.
 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/557/c++/solution.cpp)
 566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/566/c++/solution.cpp)
 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/575/c++/solution.cpp)
+595 | [Big Countries](https://leetcode.com/problems/big-countries/) | [MySQL](https://github.com/Krazune/LeetCode/blob/master/problems/595/mysql/solution.sql)
 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/606/c++/solution.cpp)
 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/617/c++/solution.cpp)
 627 | [Swap Salary](https://leetcode.com/problems/swap-salary/) | [MySQL](https://github.com/Krazune/LeetCode/blob/master/problems/627/mysql/solution.sql)
