@@ -45,6 +45,7 @@ Solutions for the LeetCode problems, using various languages.
 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | [MySQL](https://github.com/Krazune/LeetCode/blob/master/problems/595/mysql/solution.sql)
 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/606/c++/solution.cpp)
 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/617/c++/solution.cpp)
+620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | [MySQL](https://github.com/Krazune/LeetCode/blob/master/problems/620/mysql/solution.sql)
 627 | [Swap Salary](https://leetcode.com/problems/swap-salary/) | [MySQL](https://github.com/Krazune/LeetCode/blob/master/problems/627/mysql/solution.sql)
 654 | [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/654/c++/solution.cpp)
 657 | [Judge Route Circle](https://leetcode.com/problems/judge-route-circle/) | [C#](https://github.com/Krazune/LeetCode/blob/master/problems/657/c%23/solution.cs)
