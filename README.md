@@ -36,6 +36,7 @@ Solutions for the LeetCode problems, using various languages.
 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/461/c++/solution.cpp)
 476 | [Number Complement](https://leetcode.com/problems/number-complement/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/476/c/solution.c)
 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/485/c++/solution.cpp)
+496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/496/c++/solution.cpp)
 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/500/c++/solution.cpp)
 504 | [Base 7](https://leetcode.com/problems/base-7/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/504/c++/solution.cpp)
 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/520/c/solution.c)
