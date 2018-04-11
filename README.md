@@ -26,6 +26,7 @@ Solutions for the LeetCode problems, using various languages.
 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/258/c/solution.c)
 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/268/c/solution.c)
 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/283/c/solution.c)
+292 | [Nim Game](https://leetcode.com/problems/nim-game/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/292/c/solution.c)
 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/344/c++/solution.cpp)
 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/345/c++/solution.cpp)
 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/374/c++/solution.cpp)
