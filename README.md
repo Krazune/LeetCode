@@ -20,6 +20,7 @@ Solutions for the LeetCode problems, using various languages.
 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/125/c++/solution.cpp)
 136 | [Single Number](https://leetcode.com/problems/single-number/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/136/c/solution.c)
 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/191/c++/solution.cpp)
+206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/206/c/solution.c)
 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/226/c/solution.c) / [C++](https://github.com/Krazune/LeetCode/blob/master/problems/226/c++/solution.cpp)
 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/231/c++/solution.cpp)
 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/237/c++/solution.cpp)
