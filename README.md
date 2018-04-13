@@ -56,7 +56,7 @@ Solutions for the LeetCode problems, using various languages.
 657 | [Judge Route Circle](https://leetcode.com/problems/judge-route-circle/) | [C#](https://github.com/Krazune/LeetCode/blob/master/problems/657/c%23/solution.cs)
 669 | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/669/c/solution.c)
 682 | [Baseball Game](https://leetcode.com/problems/baseball-game/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/682/c++/solution.cpp)
-690 | [Employee Importance](https://leetcode.com/problems/employee-importance/) | [C++]((https://github.com/Krazune/LeetCode/blob/master/problems/690/c++/solution.cpp))
+690 | [Employee Importance](https://leetcode.com/problems/employee-importance/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/690/c++/solution.cpp)
 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | [C#](https://github.com/Krazune/LeetCode/blob/master/problems/693/c%23/solution.cs)
 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | [C#](https://github.com/Krazune/LeetCode/blob/master/problems/717/c%23/solution.cs)
 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/724/c++/solution.cpp)
