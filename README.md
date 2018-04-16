@@ -20,6 +20,7 @@ Solutions for the LeetCode problems, using various languages.
 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/104/c/solution.c)
 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/125/c++/solution.cpp)
 136 | [Single Number](https://leetcode.com/problems/single-number/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/136/c/solution.c)
+169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/169/c++/solution.cpp)
 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/191/c++/solution.cpp)
 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/206/c/solution.c)
 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/226/c/solution.c) / [C++](https://github.com/Krazune/LeetCode/blob/master/problems/226/c++/solution.cpp)
