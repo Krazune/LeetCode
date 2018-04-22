@@ -77,3 +77,4 @@ Solutions for the LeetCode problems, using various languages.
 807 | [Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/807/c++/solution.cpp)
 811 | [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/811/c++/solution.cpp)
 814 | [Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/814/c++/solution.cpp)
+821 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/821/c++/solution.cpp)
