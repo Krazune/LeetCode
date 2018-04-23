@@ -36,6 +36,7 @@ Solutions for the LeetCode problems, using various languages.
 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/345/c++/solution.cpp)
 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/374/c++/solution.cpp)
 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/383/c++/solution.cpp)
+387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/387/c/solution.c)
 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/389/c/solution.c) / [C#](https://github.com/Krazune/LeetCode/blob/master/problems/389/c%23/solution.cs)
 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/404/c/solution.c)
 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/405/c++/solution.cpp)
