@@ -44,6 +44,7 @@ Solutions for the LeetCode problems, using various languages.
 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [C#](https://github.com/Krazune/LeetCode/blob/master/problems/412/c%23/solution.cs)
 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/434/c++/solution.cpp)
 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/441/c++/solution.cpp)
+442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/442/c++/solution.cpp)
 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/461/c++/solution.cpp)
 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/463/c++/solution.cpp)
 476 | [Number Complement](https://leetcode.com/problems/number-complement/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/476/c/solution.c)
