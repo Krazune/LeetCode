@@ -71,6 +71,7 @@ Solutions for the LeetCode problems, using various languages.
 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | [C#](https://github.com/Krazune/LeetCode/blob/master/problems/717/c%23/solution.cs)
 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/724/c++/solution.cpp)
 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/728/c++/solution.cpp)
+747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/747/c/solution.c)
 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/766/c++/solution.cpp)
 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/771/c++/solution.cpp)
 788 | [Rotated Digits](https://leetcode.com/problems/rotated-digits/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/788/c/solution.c)
