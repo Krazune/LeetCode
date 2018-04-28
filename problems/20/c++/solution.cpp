@@ -9,27 +9,45 @@ class Solution
 	public:
 	bool isValid(string symbols)
 	{
-		if (symbols.size() == 0) return true;
-		
-		if (symbols.size() % 2 != 0) return false;
-
-		stack<char> s;
-
-		for (char c : symbols)
+		if (symbols.size() == 0)
 		{
-			if (c == '(') s.push(')');
-			else if (c == '[') s.push(']');
-			else if (c == '{') s.push('}');
-			else
+			return true;
+		}
+		
+		if (symbols.size() % 2 != 0)
+		{
+			return false;
+		}
+
+		stack<char> symbolNests;
+
+		for (char symbol : symbols)
+		{
+			switch (symbol)
 			{
-				if (s.size() == 0 || s.top() != c) return false;
-				
-				s.pop();
+				case '(':
+				symbolNests.push(')');
+				break;
+
+				case '[':
+				symbolNests.push(']');
+				break;
+
+				case '{':
+				symbolNests.push('}');
+				break;
+
+				default:
+				if (symbolNests.size() == 0 || symbolNests.top() != symbol)
+				{
+					return false;
+				}
+
+				symbolNests.pop();
+				break;
 			}
 		}
 
-		if (s.size() == 0) return true;
-		else return false;
-		
+		return symbolNests.size() == 0;
 	}
 };
