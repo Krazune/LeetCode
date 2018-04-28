@@ -1,16 +1,26 @@
 // 35. Search Insert Position
 int searchInsert(int* nums, int numsSize, int target)
 {
-	int l = 0, r = numsSize - 1;
+	int low = 0;
+	int high = numsSize - 1;
 
-	while (l <= r)
+	while (low <= high)
 	{
-		int m = l + (r - l) / 2;
+		int middle = low + (high - low) / 2;
 
-		if (nums[m] == target) return m;
-		else if (nums[m] > target) r = m - 1;
-		else l = m + 1;
+		if (nums[middle] == target)
+		{
+			return middle;
+		}
+		else if (nums[middle] > target)
+		{
+			high = middle - 1;
+		}
+		else
+		{
+			low = middle + 1;
+		}
 	}
 
-	return l;
+	return low;
 }
