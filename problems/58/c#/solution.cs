@@ -3,20 +3,26 @@ public class Solution
 {
 	public int LengthOfLastWord(string s)
 	{
-		int n = s.Length, int t = 0;
-		bool w = false;
-		
-		for (int i = n - 1; i >= 0; i--)
+		int length = 0;
+		bool word = false;
+
+		for (int index = s.Length - 1; index >= 0; index--)
 		{
-			if (s[i] != ' ')
+			if (s[index] != ' ')
 			{
-				if (!w) w = true;
-				
-				t++;
+				if (!word)
+				{
+					word = true;
+				}
+
+				length++;
 			}
-			else if (w) break;
+			else if (word)
+			{
+				break;
+			}
 		}
-		
-		return t;
+
+		return length;
 	}
 }
