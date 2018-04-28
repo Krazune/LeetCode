@@ -1,18 +1,24 @@
 // 101. Symmetric Tree
 class Solution
 {
-    bool allSubtreesSymmetric(struct TreeNode* p, struct TreeNode* q)
-    {
-        if (p == NULL && q == NULL) return true;
+	bool allSubtreesSymmetric(struct TreeNode* first, struct TreeNode* second)
+	{
+		if (first == NULL && second == NULL)
+		{
+			return true;
+		}
 
-        if (p == NULL || q == NULL || p->val != q->val) return false;
+		if (first == NULL || second == NULL || first->val != second->val)
+		{
+			return false;
+		}
 
-        return allSubtreesSymmetric(p->left, q->right) && allSubtreesSymmetric(p->right, q->left);
-    }
+		return allSubtreesSymmetric(first->left, second->right) && allSubtreesSymmetric(first->right, second->left);
+	}
 
-    public:
-    bool isSymmetric(TreeNode* root)
-    {
-        return allSubtreesSymmetric(root, root);
-    }
+	public:
+	bool isSymmetric(TreeNode* root)
+	{
+		return allSubtreesSymmetric(root, root);
+	}
 };
