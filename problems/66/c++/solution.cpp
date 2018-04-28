@@ -8,28 +8,28 @@ class Solution
 	public:
 	vector<int> plusOne(vector<int>& digits)
 	{
-		vector<int> r(digits);
-		int c = 1;
+		vector<int> result(digits);
+		int carry = 1;
 
-		for (int i = r.size() - 1; i >= 0; i--)
+		for (int index = result.size() - 1; index >= 0; index--)
 		{
-			int t = r[i] + c;
+			int digitSum = result[index] + carry;
 
-			if (t > 9)
+			if (digitSum > 9)
 			{
-				c = 1;
-				r[i] = 0;
+				carry = 1;
+				result[index] = 0;
 			}
 			else
 			{
-				r[i] = t;
+				result[index] = digitSum;
 
-				return r;
+				return result;
 			}
 		}
-		
-		r.insert(r.begin(), 1);
 
-		return r;
+		result.insert(result.begin(), 1);
+
+		return result;
 	}
 };
