@@ -3,28 +3,32 @@
 
 struct ListNode* deleteDuplicates(struct ListNode* head)
 {
-	if (head == NULL) return head;
-
-	struct ListNode* c = head->next, *u = head;
-	
-	while (c != NULL)
+	if (head == NULL)
 	{
-		if (c->val == u->val)
+		return head;
+	}
+
+	struct ListNode* currentNode = head->next;
+	struct ListNode* lastNode = head;
+
+	while (currentNode != NULL)
+	{
+		if (currentNode->val == lastNode->val)
 		{
-			struct ListNode* t = c;
-			
-			c = c->next;
-			free(t);
+			struct ListNode* temporary = currentNode;
+
+			currentNode = currentNode->next;
+			free(temporary);
 		}
 		else
 		{
-			u->next = c;
-			u = c;
-			c = c->next;
+			lastNode->next = currentNode;
+			lastNode = currentNode;
+			currentNode = currentNode->next;
 		}
 	}
-	
-	u->next = NULL;
-	
+
+	lastNode->next = NULL;
+
 	return head;
 }
