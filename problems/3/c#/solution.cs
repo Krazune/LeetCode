@@ -3,7 +3,7 @@ using System;
 
 public class Solution
 {
-	public int LongestSubstringLength(string inputString)
+	public int LengthOfLongestSubstring(string inputString)
 	{
 		String l = "", c = "";
 		int i = -1;
