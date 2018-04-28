@@ -9,15 +9,18 @@ class Solution
 	public:
 	vector<int> twoSum(const vector<int>& numbers, int target)
 	{
-		unordered_map<int, int> l;
+		unordered_map<int, int> differences;
 		
-		for (int i = 0; i < numbers.size(); i++)
+		for (int index = 0; index < numbers.size(); index++)
 		{
-			auto f = l.find(target - numbers[i]);
+			auto found = differences.find(target - numbers[index]);
 			
-			if (f != l.end() && f->second != i) return vector<int> {i, f->second};
+			if (found != differences.end() && found->second != index)
+			{
+				return vector<int> {index, found->second};
+			}
 			
-			l.insert({numbers[i], i});
+			differences.insert({numbers[index], index});
 		}
 	}
 };
