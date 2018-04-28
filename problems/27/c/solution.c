@@ -1,13 +1,19 @@
 // 27. Remove Element
 int removeElement(int* numbers, int size, int value)
 {
-	int o = 0;
+	int offset = 0;
 	
-	for (int i = 0; i < size; i++)
+	for (int index = 0; index < size; index++)
 	{
-		if (numbers[i] == value) o++;
-		else if (o > 0) numbers[i - o] = numbers[i];
+		if (numbers[index] == value)
+		{
+			offset++;
+		}
+		else if (offset > 0)
+		{
+			numbers[index - offset] = numbers[index];
+		}
 	}
 	
-	return size - o;
+	return size - offset;
 }
