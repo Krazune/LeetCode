@@ -9,26 +9,33 @@ class Solution
 	public:
 	bool isPalindrome(string s)
 	{
-		int l = 0, r = s.size() - 1;
+		int low = 0;
+        int high = s.size() - 1;
 		
-		while (l < r)
+		while (low < high)
 		{
-			if (isalnum(s[l]))
+			if (isalnum(s[low]))
 			{
-				if (isalnum(s[r]))
+				if (isalnum(s[high]))
 				{
-					if (tolower(s[l]) != tolower(s[r])) return false;
+					if (tolower(s[low]) != tolower(s[high]))
+					{
+						return false;
+					}
 					
-					l++;
+					low++;
 				}
 				
-				r--;
+				high--;
 			}
 			else
 			{
-				if (!isalnum(s[r])) r--;
+				if (!isalnum(s[high]))
+				{
+					high--;
+				}
 				
-				l++;
+				low++;
 			}
 		}
 		
