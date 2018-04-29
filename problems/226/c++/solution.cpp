@@ -6,15 +6,18 @@ class Solution
 	public:
 	TreeNode* invertTree(TreeNode* root)
 	{
-		if (root == NULL) return NULL;
+		if (root == NULL)
+		{
+			return NULL;
+		}
 
-		TreeNode* t = root->left;
+		TreeNode* temporary = root->left;
 
 		root->left = root->right;
-		root->right = t;
+		root->right = temporary;
 
-		if (root->left != NULL) invertTree(root->left);
-		if (root->right != NULL) invertTree(root->right);
+		invertTree(root->left);
+		invertTree(root->right);
 
 		return root;
 	}
