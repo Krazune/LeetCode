@@ -3,10 +3,20 @@
 
 int maxDepth(struct TreeNode* root)
 {
-	if (root == NULL) return 0;
+	if (root == NULL)
+	{
+		return 0;
+	}
 	
-	int l = maxDepth(root->left), r = maxDepth(root->right);
+	int left = maxDepth(root->left);
+	int right = maxDepth(root->right);
 	
-	if (l > r) return 1 + l;
-	else return 1 + r;
+	if (left > right)
+	{
+		return 1 + left;
+	}
+	else
+	{
+		return 1 + right;
+	}
 }
