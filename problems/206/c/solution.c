@@ -3,15 +3,16 @@
 
 struct ListNode* reverseList(struct ListNode* head)
 {
-	struct ListNode* p = NULL, *n = NULL;
-	
+	struct ListNode* previous = NULL;
+	int *next = NULL;
+
 	while (head != NULL)
 	{
-		n = head->next;
-		head->next = p;
-		p = head;
-		head = n;
+		next = head->next;
+		head->next = previous;
+		previous = head;
+		head = next;
 	}
-	
-	return p;
+
+	return previous;
 }
