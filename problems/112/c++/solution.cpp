@@ -6,12 +6,18 @@ class Solution
 	public:
 	bool hasPathSum(TreeNode* root, int sum)
 	{
-		if (root == NULL) return false;
+		if (root == NULL)
+		{
+			return false;
+		}
 		
-		int s = sum - root->val;
+		int currentSum = sum - root->val;
 
-		if (root->left == NULL && root->right == NULL) return s == 0;
+		if (root->left == NULL && root->right == NULL)
+		{
+			return currentSum == 0;
+		}
 
-		return hasPathSum(root->left, s) || hasPathSum(root->right, s);
+		return hasPathSum(root->left, currentSum) || hasPathSum(root->right, currentSum);
 	}
 };
