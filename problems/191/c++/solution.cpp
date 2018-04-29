@@ -8,14 +8,14 @@ class Solution
 	public:
 	int hammingWeight(uint32_t n)
 	{
-		int w = 0;
-		
+		int weight = 0;
+
 		while (n > 0)
 		{
-			w += n & 1;
+			weight += n & 1;
 			n >>= 1;
 		}
-		
-		return w;
+
+		return weight;
 	}
 };
