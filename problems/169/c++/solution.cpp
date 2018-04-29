@@ -8,16 +8,25 @@ class Solution
 	public:
 	int majorityElement(vector<int>& nums)
 	{
-		int c = 0, r = 0;
-		
-		for (int i : nums)
+		int count = 0, majority = 0;
+
+		for (int num : nums)
 		{
-			if (c == 0) r = i;
-			
-			if (i == r) c++;
-			else c--;
+			if (count == 0)
+			{
+				majority = num;
+			}
+
+			if (num == majority)
+			{
+				count++;
+			}
+			else
+			{
+				count--;
+			}
 		}
-		
-		return r;
+
+		return majority;
 	}
 };
