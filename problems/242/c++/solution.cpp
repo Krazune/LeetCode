@@ -9,21 +9,27 @@ class Solution
 	public:
 	bool isAnagram(string s, string t)
 	{
-		if (s.size() != t.size()) return false;
-		
-		unordered_map<char, int> l;
-		
-		for (int i = 0; i < s.size(); i++)
+		if (s.size() != t.size())
 		{
-			l[s[i]]++;
-			l[t[i]]--;
+			return false;
 		}
-		
-		for (auto i : l)
+
+		unordered_map<char, int> charactersCount;
+
+		for (int index = 0; index < s.size(); index++)
 		{
-			if (i.second != 0) return false;
+			charactersCount[s[index]]++;
+			charactersCount[t[index]]--;
 		}
-		
+
+		for (auto iterator : charactersCount)
+		{
+			if (iterator.second != 0)
+			{
+				return false;
+			}
+		}
+
 		return true;
 	}
 };
