@@ -9,31 +9,33 @@ class Solution
 	public:
 	string reverseVowels(string inputString)
 	{
-		for (int l = 0, r = inputString.size() - 1; l < r; )
+		for (int low = 0, high = inputString.size() - 1; low < high; )
 		{
-			char ll = tolower(inputString[l]), rl = tolower(inputString[r]);
-			
-			if (ll == 'a' || ll == 'e' || ll == 'i' || ll == 'o' || ll == 'u')
+			char lowLower = tolower(inputString[low]);
+			char highLower = tolower(inputString[high]);
+
+			if (lowLower == 'a' || lowLower == 'e' || lowLower == 'i' || lowLower == 'o' || lowLower == 'u')
 			{
-				if (rl == 'a' || rl == 'e' || rl == 'i' || rl == 'o' || rl == 'u')
+				if (highLower == 'a' || highLower == 'e' || highLower == 'i' || highLower == 'o' || highLower == 'u')
 				{
-					char t = inputString[l];
-					
-					inputString[l] = inputString[r];
-					inputString[r] = t;
-					l++;
+					swap(inputString[low], inputString[high]);
+
+					low++;
 				}
-				
-				r--;
+
+				high--;
 			}
 			else
 			{
-				if (rl != 'a' && rl != 'e' && rl != 'i' && rl != 'o' && rl != 'u') r--;
-				
-				l++;
+				if (highLower != 'a' && highLower != 'e' && highLower != 'i' && highLower != 'o' && highLower != 'u')
+				{
+					high--;
+				}
+
+				low++;
 			}
 		}
-		
+
 		return inputString;
 	}
 };
