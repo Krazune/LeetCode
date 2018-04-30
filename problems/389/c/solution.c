@@ -1,9 +1,13 @@
 // 389. Find the Difference
 char findTheDifference(char* s, char* t)
 {
-	int i = 0, n = 0;
+	int index = 0;
+	int difference = 0;
 
-	for (; s[i] != 0; i++) n ^= s[i] ^ t[i];
+	for (; s[index] != 0; index++)
+	{
+		difference ^= s[index] ^ t[index];
+	}
 
-	return (n ^ t[i]);
+	return difference ^ t[index];
 }
