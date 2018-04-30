@@ -1,13 +1,19 @@
 // 387. First Unique Character in a String
 int firstUniqChar(char* s)
 {
-	int a[26] = { 0 };
+	int letterCounts[26] = { 0 };
 
-	for (int i = 0; s[i] != '\0'; i++) a[s[i] - 'a']++;
-
-	for (int i = 0; s[i] != '\0'; i++)
+	for (int index = 0; s[index] != '\0'; index++)
 	{
-		if (a[s[i] - 'a'] == 1) return i;
+		letterCounts[s[index] - 'a']++;
+	}
+
+	for (int index = 0; s[index] != '\0'; index++)
+	{
+		if (letterCounts[s[index] - 'a'] == 1)
+		{
+			return index;
+		}
 	}
 
 	return -1;
