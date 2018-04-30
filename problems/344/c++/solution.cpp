@@ -8,14 +8,14 @@ class Solution
 	public:
 	string reverseString(string s)
 	{
-		for (int i = 0, j = s.size() - 1; i < j; i++, j--)
+		for (int low = 0, high = s.size() - 1; low < high; low++, high--)
 		{
-			char t = s[i];
+			char temporary = s[low];
 
-			s[i] = s[j];
-			s[j] = t;
+			s[low] = s[high];
+			s[high] = temporary;
 		}
-		
+
 		return s;
 	}
 };
