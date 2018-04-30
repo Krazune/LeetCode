@@ -6,15 +6,26 @@ class Solution
 	public:
 	int guessNumber(int n)
 	{
-		int l = 1, h = n;
+		int low = 1;
+		int high = n;
 
-		while (l <= h)
+		while (low <= high)
 		{
-			int m = l + (h - l) / 2, g = guess(m);
+			int middle = low + (high - low) / 2;
+			int guessResult = guess(middle);
 
-			if (g == 0) return m;
-			else if (g == -1) h = m - 1;
-			else l = m + 1;
+			if (guessResult == 0)
+			{
+				return middle;
+			}
+			else if (guessResult == -1)
+			{
+				high = middle - 1;
+			}
+			else
+			{
+				low = middle + 1;
+			}
 		}
 
 		return -1;
