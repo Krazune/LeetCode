@@ -8,22 +8,29 @@ class Solution
 	public:
 	int islandPerimeter(vector<vector<int>>& grid)
 	{
-		int p = 0;
+		int perimeter = 0;
 
-		for (int i = 0; i < grid.size(); i++)
+		for (int y = 0; y < grid.size(); y++)
 		{
-			for (int j = 0; j < grid[0].size(); j++)
+			for (int x = 0; x < grid[0].size(); x++)
 			{
-				if (grid[i][j] == 1)
+				if (grid[y][x] == 1)
 				{
-					p += 4;
-					
-					if (i > 0 && grid[i - 1][j] == 1) p -= 2;
-					if (j > 0 && grid[i][j - 1] == 1) p -= 2;
+					perimeter += 4;
+
+					if (y > 0 && grid[y - 1][x] == 1)
+					{
+						perimeter -= 2;
+					}
+
+					if (x > 0 && grid[y][x - 1] == 1)
+					{
+						perimeter -= 2;
+					}
 				}
 			}
 		}
-		
-		return p;
+
+		return perimeter;
 	}
 };
