@@ -4,14 +4,14 @@ class Solution
 	public:
 	int arrangeCoins(int number)
 	{
-		int rows = 0;
-		
-		while (number >= (rows + 1))
+		int rows = 1;
+
+		while (number >= rows)
 		{
-			number -= (rows + 1);
+			number -= rows;
 			rows++;
 		}
-		
-		return rows;
+
+		return rows - 1;
 	}
 };
