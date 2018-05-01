@@ -9,16 +9,22 @@ class Solution
 	public:
 	vector<int> findDuplicates(vector<int>& nums)
 	{
-		vector<int> r;
-		
-		for (int i = 0; i < nums.size(); i++)
+		vector<int> duplicates;
+
+		for (int index = 0; index < nums.size(); index++)
 		{
-			int a = abs(nums[i]), j = a - 1;
-			
-			if (nums[j] < 0) r.push_back(a);
-			else nums[j] = -nums[j];
+			int absoluteIndex = abs(nums[index]) - 1;
+
+			if (nums[absoluteIndex] < 0)
+			{
+				duplicates.push_back(absoluteIndex + 1);
+			}
+			else
+			{
+				nums[absoluteIndex] = -nums[absoluteIndex];
+			}
 		}
-		
-		return r;
+
+		return duplicates;
 	}
 };
