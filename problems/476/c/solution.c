@@ -1,9 +1,12 @@
 // 476. Number Complement
 int findComplement(int num)
 {
-	unsigned int m = ~0;
-	
-	while (m & num) m <<= 1;
-	
-	return ~m ^ num;
+	unsigned int mask = ~0;
+
+	while (mask & num)
+	{
+		mask <<= 1;
+	}
+
+	return ~mask ^ num;
 }
