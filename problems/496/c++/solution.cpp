@@ -7,26 +7,38 @@ using namespace std;
 
 class Solution
 {
-    public:
-    vector<int> nextGreaterElement(vector<int>& findNums, vector<int>& nums)
-    {
-        vector<int> r;
-        stack<int> s;
-        unordered_map<int, int> g;
-        
-        for (int n : nums)
-        {
-            while (s.size() > 0 && s.top() < n)
-            {
-                g[s.top()] = n;
-                s.pop();
-            }
-            
-            s.push(n);
-        }
-        
-        for (int n : findNums) r.push_back(g.count(n) > 0 ? m[n] : -1);
-        
-        return r;
-    }
+	public:
+	vector<int> nextGreaterElement(vector<int>& findNums, vector<int>& nums)
+	{
+		vector<int> result;
+		stack<int> elementStack;
+		unordered_map<int, int> greaterElements;
+
+		for (int number : nums)
+		{
+			while (elementStack.size() > 0 && elementStack.top() < number)
+			{
+				greaterElements[elementStack.top()] = number;
+				elementStack.pop();
+			}
+
+			elementStack.push(number);
+		}
+
+		for (int number : findNums)
+		{
+			auto greaterElement = greaterElements[number];
+
+			if (greaterElement != NULL)
+			{
+				result.push_back(greaterElement);
+			}
+			else
+			{
+				result.push_back(-1);
+			}
+		}
+
+		return result;
+	}
 };
