@@ -8,22 +8,25 @@ class Solution
 	public:
 	int countSegments(string input)
 	{
-		bool s = false;
-		int r = 0;
-		
-		for (char c : input)
+		bool inSegment = false;
+		int count = 0;
+
+		for (char character : input)
 		{
-			if (c != ' ')
+			if (character != ' ')
 			{
-				if (!s)
+				if (!inSegment)
 				{
-					s = true;
-					r++;
+					inSegment = true;
+					count++;
 				}
 			}
-			else s = false;
+			else
+			{
+				inSegment = false;
+			}
 		}
-		
-		return r;
+
+		return count;
 	}
 };
