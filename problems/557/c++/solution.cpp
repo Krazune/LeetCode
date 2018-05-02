@@ -9,21 +9,28 @@ class Solution
 	public:
 	string reverseWords(string s)
 	{
-		string::iterator l = s.begin(), r = s.begin();
-		
-		for (char c : s)
+		string::iterator low = s.begin();
+		string::iterator high = s.begin();
+
+		for (char character : s)
 		{
-			if (c == ' ')
+			if (character == ' ')
 			{
-				reverse(l, r);
-				r++;
-				l = r;
+				reverse(low, high);
+				high++;
+				low = high;
 			}
-			else r++;
+			else
+			{
+				high++;
+			}
 		}
-		
-		if (l != r) reverse(l, r);
-		
+
+		if (low != high)
+		{
+			reverse(low, high);
+		}
+
 		return s;
 	}
 };
