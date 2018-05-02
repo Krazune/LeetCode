@@ -9,18 +9,24 @@ int detectCapitalUse(char* word)
 		{
 			for (int i = 2; word[i] != '\0'; i++)
 			{
-				if (islower(word[i])) return 0;
+				if (islower(word[i]))
+				{
+					return 0;
+				}
 			}
-			
+
 			return 1;
 		}
 		else
 		{
 			for (int = 1; word[i] != '\0'; i++)
 			{
-				if (isupper(word[i])) return 0;
+				if (isupper(word[i]))
+				{
+					return 0;
+				}
 			}
-			
+
 			return 1;
 		}
 	}
@@ -28,9 +34,12 @@ int detectCapitalUse(char* word)
 	{
 		for (int i = 0; word[i] != '\0'; i++)
 		{
-			if (isupper(word[i])) return 0;
+			if (isupper(word[i]))
+			{
+				return 0;
+			}
 		}
-		
+
 		return 1;
 	}
 }
