@@ -11,34 +11,48 @@ class Solution
 	public:
 	vector<string> findWords(vector<string>& words)
 	{
-		vector<string> r;
-		vector<unordered_set<char>> l({{'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p'}, {'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l'}, {'z', 'x', 'c', 'v', 'b', 'n', 'm'}});
-
-		for (string s : words)
-		{
-			if (s.empty()) continue;
-
-			int t = 0;
-			bool v = true;
-			char c = tolower(s[0]);
-
-			for (int i = 0; i < l.size(); i++)
+		vector<string> validWords;
+		vector<unordered_set<char>> keyboardRows(
 			{
-				if (l[i].find(c) != l[i].end()) t = i;
+				{'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p'},
+				{'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l'},
+				{'z', 'x', 'c', 'v', 'b', 'n', 'm'}
+			});
+
+		for (string word : words)
+		{
+			if (word.empty())
+			{
+				continue;
 			}
 
-			for (int i = 1; i < s.size(); i++)
+			int rowIndex = 0;
+			bool isValid = true;
+
+			for (int index = 0; index < keyboardRows.size(); index++)
 			{
-				if (l[t].find(tolower(s[i])) == l[i].end())
+				if (keyboardRows[index].find(tolower(word[0])) != keyboardRows[index].end())
 				{
-					v = false;
+					rowIndex = index;
 					break;
 				}
 			}
 
-			if (v) r.push_back(s);
+			for (int index = 1; index < word.size(); index++)
+			{
+				if (keyboardRows[rowIndex].find(tolower(word[index])) == keyboardRows[index].end())
+				{
+					isValid = false;
+					break;
+				}
+			}
+
+			if (isValid)
+			{
+				validWords.push_back(word);
+			}
 		}
 
-		return r;
+		return validWords;
 	}
 };
