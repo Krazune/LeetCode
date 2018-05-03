@@ -10,41 +10,44 @@ class Solution
 	public:
 	int calPoints(vector<string>& ops)
 	{
-		stack<int> v;
-		int r = 0;
-		
-		for (string s : ops)
+		stack<int> validPoints;
+		int result = 0;
+
+		for (string operation : ops)
 		{
-			int t1 = 0, t2 = 0;
-			
-			switch (s[0])
+			switch (operation[0])
 			{
 				case '+':
-				t1 = v.top();
-				v.pop();
-				t2 = v.top() + t1;
-				r += t2;
-				v.push(t1);
-				v.push(t2);
+				{
+					int temporary1 = validPoints.top();
+
+					validPoints.pop();
+					
+					int temporary2 = validPoints.top() + temporary1;
+					
+					result += temporary2;
+					validPoints.push(temporary1);
+					validPoints.push(temporary2);
+				}
 				break;
 
 				case 'D':
-				v.push(v.top() * 2);
-				r += v.top();
+				validPoints.push(validPoints.top() * 2);
+				result += validPoints.top();
 				break;
 
 				case 'C':
-				r -= v.top();
-				v.pop();
+				result -= validPoints.top();
+				validPoints.pop();
 				break;
 
 				default:
-				v.push(stoi(s));
-				r += v.top();
+				validPoints.push(stoi(operation));
+				result += validPoints.top();
 				break;
 			}
 		}
-		
-		return r;
+
+		return result;
 	}
 };
