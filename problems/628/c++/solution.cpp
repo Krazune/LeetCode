@@ -8,31 +8,41 @@ class Solution
 	public:
 	int maximumProduct(vector<int>& nums)
 	{
-		int h1 = INT_MIN, h2 = INT_MIN, h3 = INT_MIN, l1 = INT_MAX, l2 = INT_MAX;
+		int highest = INT_MIN;
+		int secondHighest = INT_MIN;
+		int thirdHighest = INT_MIN;
+		int lowest = INT_MAX;
+		int secondLowest = INT_MAX;
 		
-		for (int n : nums)
+		for (int number : nums)
 		{
-			if (n > h1)
+			if (number > highest)
 			{
-				h3 = h2;
-				h2 = h1;
-				h1 = n;
+				thirdHighest = secondHighest;
+				secondHighest = highest;
+				highest = number;
 			}
-			else if (n > h2)
+			else if (number > secondHighest)
 			{
-				h3 = h2;
-				h2 = n;
+				thirdHighest = secondHighest;
+				secondHighest = number;
 			}
-			else if (n > h3) h3 = n;
-			
-			if (n < l1)
+			else if (number > thirdHighest)
 			{
-				l2 = l1;
-				l1 = n;
+				thirdHighest = number;
 			}
-			else if (n < l2) l2 = n;
+
+			if (number < lowest)
+			{
+				secondLowest = lowest;
+				lowest = number;
+			}
+			else if (number < secondLowest)
+			{
+				secondLowest = number;
+			}
 		}
-		
-		return max(h1 * h2 * h3, h1 * l1 * l2);
+
+		return max(highest * secondHighest * thirdHighest, highest * lowest * secondLowest);
 	}
 };
