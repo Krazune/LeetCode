@@ -3,16 +3,35 @@ public class Solution
 {
 	public bool JudgeCircle(string moves)
 	{
-		int x = 0, y = 0;
-		
-		foreach (char c in moves)
+		int x = 0;
+		int y = 0;
+
+		foreach (char direction in moves)
 		{
-			if (c == 'U') y++;
-			else if (c == 'L') x--;
-			else if (c == 'D') y--;
-			else x++;
+			switch (direction)
+			{
+				case 'U':
+				y++;
+				break;
+
+				case 'L':
+				x--;
+				break;
+
+				case 'D':
+				y--;
+				break;
+
+				case 'R':
+				x++;
+				break;
+
+				default:
+				return false;
+				break;
+			}
 		}
-		
+
 		return x == 0 && y == 0;
 	}
 }
