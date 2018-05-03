@@ -9,48 +9,50 @@ class Solution
 	public:
 	TreeNode* constructMaximumBinaryTree(vector<int>& nums)
 	{
-		struct TreeNode* r = new TreeNode(nums[0]);
+		struct TreeNode* resultTree = new TreeNode(nums[0]);
 
-		for (int i = 1; i < nums.size(); i++)
+		for (int index = 1; index < nums.size(); index++)
 		{
-			struct TreeNode* p = NULL, *c = r, *n = NULL;
-			
+			struct TreeNode* previousNode = NULL;
+			struct TreeNode* currentNode = resultTree;
+			struct TreeNode* nextNode = NULL;
+
 			while (true)
 			{
-				if (nums[i] > c->val)
+				if (nums[index] > currentNode->val)
 				{
-					n = new TreeNode(nums[i]);
-					
-					if (p == NULL)
+					nextNode = new TreeNode(nums[index]);
+
+					if (previousNode == NULL)
 					{
-						n->left = r;
-						r = n;
+						nextNode->left = resultTree;
+						resultTree = nextNode;
 					}
 					else
 					{
-						p->right = n;
-						n->left = c;
+						previousNode->right = nextNode;
+						nextNode->left = currentNode;
 					}
-					
+
 					break;
 				}
 				else
 				{
-					if (c->right == NULL)
+					if (currentNode->right == NULL)
 					{
-						n = new TreeNode(nums[i]);
-						
-						c->right = n;
-						
+						nextNode = new TreeNode(nums[index]);
+
+						currentNode->right = nextNode;
+
 						break;
 					}
 
-					p = c;
-					c = c->right;
+					previousNode = currentNode;
+					currentNode = currentNode->right;
 				}
 			}
 		}
-		
-		return r;
+
+		return resultTree;
 	}
 };
