@@ -3,8 +3,11 @@
 
 struct TreeNode* trimBST(struct TreeNode* root, int L, int R)
 {
-	if (root == NULL) return NULL;
-	
+	if (root == NULL)
+	{
+		return NULL;
+	}
+
 	if (root->val >= L)
 	{
 		if (root->val <= R)
@@ -12,9 +15,15 @@ struct TreeNode* trimBST(struct TreeNode* root, int L, int R)
 			root->left = trimBST(root->left, L, R);
 			root->right = trimBST(root->right, L, R);
 		}
-		else root = trimBST(root->left, L, R);
+		else
+		{
+			root = trimBST(root->left, L, R);
+		}
 	}
-	else root = trimBST(root->right, L, R);
+	else
+	{
+		root = trimBST(root->right, L, R);
+	}
 
 	return root;
 }
