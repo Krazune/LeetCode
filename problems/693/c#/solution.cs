@@ -3,20 +3,26 @@ public class Solution
 {
 	public bool HasAlternatingBits(int n)
 	{
-		if (n <= 2) return true;
+		if (n <= 2)
+		{
+			return true;
+		}
 
-		bool z = ((n & 1) == 1);
-		
+		bool bitState = ((n & 1) == 1);
+
 		n >>= 1;
-		
+
 		do
 		{
-			if (z != ((n & 1) == 1))
+			if (bitState != ((n & 1) == 1))
 			{
-				z = !z;
+				bitState = !bitState;
 				n >>= 1;
 			}
-			else return false;
+			else
+			{
+				return false;
+			}
 		}
 		while (n > 0);
 
