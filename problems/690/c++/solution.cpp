@@ -7,21 +7,27 @@ using namespace std;
 class Solution
 {
 	public:
-	int getTotalImportance(unordered_map<int, Employee*>& e, int id)
+	int getTotalImportance(unordered_map<int, Employee*>& employees, int id)
 	{
-		int s = e[id]->importance;
-		
-		for (int i : e[id]->subordinates) s += getTotalImportance(e, i);
-		
-		return s;
+		int importanceSum = employees[id]->importance;
+
+		for (int subordinateImportance : employees[id]->subordinates)
+		{
+			importanceSum += getTotalImportance(employees, subordinateImportance);
+		}
+
+		return importanceSum;
 	}
-	
+
 	int getImportance(vector<Employee*> employees, int id)
 	{
-		unordered_map<int, Employee*> e;
-		
-		for (Employee* employee : employees) e.insert({employee->id, employee});
+		unordered_map<int, Employee*> employeeMap;
 
-		return getTotalImportance(e, id);
+		for (Employee* employee : employees)
+		{
+			employeeMap.insert({employee->id, employee});
+		}
+
+		return getTotalImportance(employeeMap, id);
 	}
 };
