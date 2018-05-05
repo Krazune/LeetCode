@@ -3,19 +3,30 @@
 
 int dominantIndex(int* nums, int numsSize)
 {
-	int h = INT_MIN, l = INT_MIN, m = -1;
-	
-	for (int i = 0; i < numsSize; i++)
+	int high = INT_MIN;
+	int low = INT_MIN;
+	int middle = -1;
+
+	for (int index = 0; index < numsSize; index++)
 	{
-		if (nums[i] > h)
+		if (nums[index] > high)
 		{
-			l = h;
-			h = nums[i];
-			m = i;
+			low = high;
+			high = nums[index];
+			middle = index;
 		}
-		else if (nums[i] > l) l = nums[i];
+		else if (nums[index] > low)
+		{
+			low = nums[index];
+		}
 	}
-	
-	if (h >= 2 * l) return m;
-	else return -1;
+
+	if (high >= 2 * low)
+	{
+		return middle;
+	}
+	else
+	{
+		return -1;
+	}
 }
