@@ -1,28 +1,35 @@
 // 788. Rotated Digits
 int rotatedDigits(int N)
 {
-	int c = 0;
-	
-	for (int i = 1; i <= N; i++)
+	int count = 0;
+
+	for (int index = 1; index <= N; index++)
 	{
-		int n = i, g = 0;
-		
-		while (n != 0)
+		int currentNumber = index;
+		int valid = 0;
+
+		while (currentNumber != 0)
 		{
-			int d = n % 10;
-			
-			if (d == 2 || d == 5 || d == 6 || d == 9) g = 1;
-			else if (d != 0 && d != 1 && d != 8)
+			int digit = currentNumber % 10;
+
+			if (digit == 2 || digit == 5 || digit == 6 || digit == 9)
 			{
-				g = 0;
+				valid = 1;
+			}
+			else if (digit != 0 && digit != 1 && digit != 8)
+			{
+				valid = 0;
 				break;
 			}
-			
-			n /= 10;
+
+			currentNumber /= 10;
 		}
-		
-		if (g) c++;
+
+		if (valid)
+		{
+			count++;
+		}
 	}
-	
-	return c;
+
+	return count;
 }
