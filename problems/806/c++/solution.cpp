@@ -8,23 +8,26 @@ class Solution
 	public:
 	vector<int> numberOfLines(vector<int>& widths, string S)
 	{
-		vector<int> r(2, 1);
-		int l = 0;
-		
-		for (char c : S)
+		vector<int> result(2, 1);
+		int lastLineWidth = 0;
+
+		for (char character : S)
 		{
-			int w = widths[c - 'a'];
-			
-			if (l + w > 100)
+			int lineWidth = widths[character - 'a'];
+
+			if (lastLineWidth + lineWidth > 100)
 			{
-				r[0]++;
-				l = w;
+				result[0]++;
+				lastLineWidth = lineWidth;
 			}
-			else l += w;
+			else
+			{
+				lastLineWidth += lineWidth;
+			}
 		}
-		
-		r[1] = l;
-		
-		return r;
+
+		result[1] = lastLineWidth;
+
+		return result;
 	}
 };

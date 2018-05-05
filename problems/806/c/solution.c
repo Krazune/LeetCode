@@ -3,25 +3,29 @@
 
 int* numberOfLines(int* widths, int widthsSize, char* S, int* returnSize)
 {
-	int* r = malloc(sizeof(int) * 2);
-	int l = 0;
+	int* result = malloc(sizeof(int) * 2);
+	int lastLineWidth = 0;
 	
-	r[0] = r[1] = 1;
+	result[0] = 1;
+	result[1] = 1;
 	*returnSize = 2;
 
-	for (int i = 0; S[i] != '\0'; i++)
+	for (int index = 0; S[index] != '\0'; index++)
 	{
-		int w = widths[S[i] - 'a'];
+		int lineWidth = widths[S[index] - 'a'];
 
-		if (l + w > 100)
+		if (lastLineWidth + lineWidth > 100)
 		{
-			r[0]++;
-			l = w;
+			result[0]++;
+			lastLineWidth = lineWidth;
 		}
-		else l += w;
+		else
+		{
+			lastLineWidth += lineWidth;
+		}
 	}
 
-	r[1] = l;
+	result[1] = lastLineWidth;
 
-	return r;
+	return result;
 }
