@@ -10,18 +10,21 @@ class Solution
 	public:
 	int uniqueMorseRepresentations(vector<string>& words)
 	{
-		vector<string> m({".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."});
-		unordered_set<string> r;
-		
-		for (string s : words)
+		vector<string> morse({".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."});
+		unordered_set<string> uniqueMorse;
+
+		for (string word : words)
 		{
-			string w;
-			
-			for (char c : s) w += m[c - 'a'];
-			
-			r.insert(w);
+			string morseRepresentation;
+
+			for (char character : word)
+			{
+				morseRepresentation += morse[character - 'a'];
+			}
+
+			uniqueMorse.insert(morseRepresentation);
 		}
-		
-		return r.size();
+
+		return uniqueMorse.size();
 	}
 };
