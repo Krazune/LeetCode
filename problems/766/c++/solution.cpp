@@ -8,16 +8,20 @@ class Solution
 	public:
 	bool isToeplitzMatrix(vector<vector<int>>& matrix)
 	{
-		int m = matrix.size(), n = matrix[0].size();
+		int height = matrix.size();
+		int width = matrix[0].size();
 
-		for (int i = 1; i < m; i++)
+		for (int row = 1; row < height; row++)
 		{
-			for (int j = 1; j < n; j++)
+			for (int column = 1; column < width; column++)
 			{
-				if (matrix[i][j] != matrix[i - 1][j - 1]) return false;
+				if (matrix[row][column] != matrix[row - 1][column - 1])
+				{
+					return false;
+				}
 			}
 		}
-		
+
 		return true;
 	}
 };
