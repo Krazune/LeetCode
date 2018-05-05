@@ -3,10 +3,13 @@ public class Solution
 {
 	public bool IsOneBitCharacter(int[] bits)
 	{
-		int c = 0;
-		
-		for (int i = bits.Length - 2; i >= 0 && bits[i] == 1; i--) c++;
-		
-		return c % 2 == 0;
+		int count = 0;
+
+		for (int index = bits.Length - 2; index >= 0 && bits[index] == 1; index--)
+		{
+			count++;
+		}
+
+		return count % 2 == 0;
 	}
 }
