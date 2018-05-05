@@ -9,23 +9,28 @@ class Solution
 	public:
 	int maxIncreaseKeepingSkyline(vector<vector<int>>& grid)
 	{
-		int s = 0, n = grid.size();
-		vector<int> r(grid.size(), 0), c(grid[0].size(), 0);
+		int sum = 0;
+		int size = grid.size();
+		vector<int> rows(grid.size(), 0);
+		vector<int> columns(grid[0].size(), 0);
 		
-		for (int i = 0; i < n; i++)
+		for (int row = 0; row < size; row++)
 		{
-			for (int j = 0; j < n; j++)
+			for (int column = 0; column < size; column++)
 			{
-				r[i] = max(r[i], grid[i][j]);
-				c[i] = max(c[i], grid[j][i]);
+				rows[row] = max(rows[row], grid[row][column]);
+				columns[row] = max(columns[row], grid[column][row]);
 			}
 		}
 
-		for (int i = 0; i < n; i++)
+		for (int row = 0; row < size; row++)
 		{
-			for (int j = 0; j < n; j++) s += min(r[i], c[j]) - grid[i][j];
+			for (int column = 0; column < size; column++)
+			{
+				sum += min(rows[row], columns[column]) - grid[row][column];
+			}
 		}
 
-		return s;
+		return sum;
 	}
 };
