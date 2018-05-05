@@ -8,29 +8,35 @@ class Solution
 	public:
 	vector<int> selfDividingNumbers(int left, int right)
 	{
-		vector<int> r;
+		vector<int> validNumbers;
 
-		for (int i = left; i <= right; i++)
+		for (int index = left; index <= right; index++)
 		{
-			int l = i;
-			bool v = true;
-			
+			int currentNumber = index;
+			bool selfDividing = true;
+
 			do
 			{
-				int d = l % 10;
-				
-				if (d == 0 || i % d != 0)
+				int digit = currentNumber % 10;
+
+				if (digit == 0 || index % digit != 0)
 				{
-					v = false;
+					selfDividing = false;
 					break;
 				}
-				else l /= 10;
+				else
+				{
+					currentNumber /= 10;
+				}
 			}
-			while (l > 0);
-			
-			if (v) r.push_back(i);
+			while (currentNumber > 0);
+
+			if (selfDividing)
+			{
+				validNumbers.push_back(index);
+			}
 		}
-		
-		return r;
+
+		return validNumbers;
 	}
 };
