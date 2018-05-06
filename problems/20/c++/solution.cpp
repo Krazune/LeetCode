@@ -13,7 +13,7 @@ class Solution
 		{
 			return true;
 		}
-		
+
 		if (symbols.size() % 2 != 0)
 		{
 			return false;

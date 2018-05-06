@@ -22,9 +22,9 @@ class Solution
 					int temporary1 = validPoints.top();
 
 					validPoints.pop();
-					
+
 					int temporary2 = validPoints.top() + temporary1;
-					
+
 					result += temporary2;
 					validPoints.push(temporary1);
 					validPoints.push(temporary2);

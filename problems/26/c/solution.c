@@ -5,9 +5,9 @@ int removeDuplicates(int* nums, int numsSize)
 	{
 		return numsSize;
 	}
-	
+
 	int offset = 0;
-	
+
 	for (int index = 1; index < numsSize; index++)
 	{
 		if (nums[index] == nums[index - 1])
@@ -19,6 +19,6 @@ int removeDuplicates(int* nums, int numsSize)
 			nums[index - offset] = nums[index];
 		}
 	}
-	
+
 	return numsSize - offset;
 }

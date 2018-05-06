@@ -3,7 +3,7 @@
 
 using namespace std;
 
-class Solution 
+class Solution
 {
 	public:
 	bool isToeplitzMatrix(vector<vector<int>>& matrix)

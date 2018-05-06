@@ -5,6 +5,6 @@ int singleNumber(int* nums, int numsSize)
 	{
 		nums[0] ^= nums[i];
 	}
-	
+
 	return nums[0];
 }

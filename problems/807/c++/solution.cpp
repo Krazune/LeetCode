@@ -13,7 +13,7 @@ class Solution
 		int size = grid.size();
 		vector<int> rows(grid.size(), 0);
 		vector<int> columns(grid[0].size(), 0);
-		
+
 		for (int row = 0; row < size; row++)
 		{
 			for (int column = 0; column < size; column++)

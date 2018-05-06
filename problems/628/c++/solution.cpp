@@ -13,7 +13,7 @@ class Solution
 		int thirdHighest = INT_MIN;
 		int lowest = INT_MAX;
 		int secondLowest = INT_MAX;
-		
+
 		for (int number : nums)
 		{
 			if (number > highest)

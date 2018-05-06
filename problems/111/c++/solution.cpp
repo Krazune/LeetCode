@@ -12,7 +12,7 @@ class Solution
 		{
 			return 0;
 		}
-		
+
 		if (root->left == NULL)
 		{
 			if (root->right == NULL)

@@ -5,7 +5,7 @@ int* numberOfLines(int* widths, int widthsSize, char* S, int* returnSize)
 {
 	int* result = malloc(sizeof(int) * 2);
 	int lastLineWidth = 0;
-	
+
 	result[0] = 1;
 	result[1] = 1;
 	*returnSize = 2;

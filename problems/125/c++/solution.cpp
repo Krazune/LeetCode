@@ -11,7 +11,7 @@ class Solution
 	{
 		int low = 0;
         int high = s.size() - 1;
-		
+
 		while (low < high)
 		{
 			if (isalnum(s[low]))
@@ -22,10 +22,10 @@ class Solution
 					{
 						return false;
 					}
-					
+
 					low++;
 				}
-				
+
 				high--;
 			}
 			else
@@ -34,11 +34,11 @@ class Solution
 				{
 					high--;
 				}
-				
+
 				low++;
 			}
 		}
-		
+
 		return true;
 	}
 };

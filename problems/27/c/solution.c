@@ -2,7 +2,7 @@
 int removeElement(int* numbers, int size, int value)
 {
 	int offset = 0;
-	
+
 	for (int index = 0; index < size; index++)
 	{
 		if (numbers[index] == value)
@@ -14,6 +14,6 @@ int removeElement(int* numbers, int size, int value)
 			numbers[index - offset] = numbers[index];
 		}
 	}
-	
+
 	return size - offset;
 }

@@ -10,7 +10,7 @@ class Solution
 		{
 			return false;
 		}
-		
+
 		int currentSum = sum - root->val;
 
 		if (root->left == NULL && root->right == NULL)
