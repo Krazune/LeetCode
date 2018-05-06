@@ -8,30 +8,41 @@ class Solution
 	public:
 	vector<string> subdomainVisits(vector<string>& cpdomains)
 	{
-		unordered_map<string, int> d;
-		vector<string> r;
-		
-		for (string s : cpdomains)
+		unordered_map<string, int> domainVisits;
+		vector<string> visits;
+
+		for (string cpdomain : cpdomains)
 		{
-			string n, w;
-			int c = 0, i = 0;
-			
-			for (; s[i] != ' '; i++) n += s[i];
-			
-			c = stoi(n);
-			
-			for (int j = s.size() - 1; j > i; j--)
+			string number;
+			string domain;
+			int visitCount = 0;
+			int visitStringIndex = 0;
+
+			for (; cpdomain[visitStringIndex] != ' '; visitStringIndex++)
 			{
-				if (s[j] == '.') d[w] += c;
-					
-				w = s[j] + w;
+				number += cpdomain[visitStringIndex];
 			}
 
-			d[w] += c;
+			visitCount = stoi(number);
+
+			for (int domainStringIndex = cpdomain.size() - 1; domainStringIndex > visitStringIndex; domainStringIndex--)
+			{
+				if (cpdomain[domainStringIndex] == '.')
+				{
+					domainVisits[domain] += visitCount;
+				}
+
+				domain = cpdomain[domainStringIndex] + domain;
+			}
+
+			domainVisits[domain] += visitCount;
 		}
-		
-		for (auto i = d.begin(); i != d.end(); i++) r.push_back(to_string(i->second) + ' ' + i->first);
-		
-		return r;
+
+		for (auto iterator = domainVisits.begin(); iterator != domainVisits.end(); iterator++)
+		{
+			visits.push_back(to_string(iterator->second) + ' ' + iterator->first);
+		}
+
+		return visits;
 	}
 };
