@@ -12,23 +12,35 @@ class Solution
 	public:
 	vector<int> shortestToChar(string S, char C)
 	{
-		vector<int> r(S.size(), INT_MAX);
-		int p = -1;
+		vector<int> distances(S.size(), INT_MAX);
+		int cIndex = -1;
 
-		for (int i = 0; i < S.size(); i++)
+		for (int index = 0; index < S.size(); index++)
 		{
-			if (S[i] == C) p = i;
-			
-			if (p != -1) r[i] = abs(i - p);
+			if (S[index] == C)
+			{
+				cIndex = index;
+			}
+
+			if (cIndex != -1)
+			{
+				distances[index] = abs(index - cIndex);
+			}
 		}
 
-		for (int i = S.size() - 1, p = -1; i >= 0; i--)
+		for (int index = S.size() - 1, cIndex = -1; index >= 0; index--)
 		{
-			if (S[i] == C) p = i;
-			
-			if (p != -1) r[i] = min(r[i], abs(i - p));
+			if (S[index] == C)
+			{
+				cIndex = index;
+			}
+
+			if (cIndex != -1)
+			{
+				distances[index] = min(distances[index], abs(index - cIndex));
+			}
 		}
 
-		return r;
+		return distances;
 	}
 };
