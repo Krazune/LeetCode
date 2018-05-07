@@ -1,5 +1,5 @@
 // 100. Same Tree
-#include <cstddef>
+#include <stddef.h>
 
 bool isSameTree(struct TreeNode* p, struct TreeNode* q)
 {
