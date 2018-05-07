@@ -1,5 +1,5 @@
 // 7. Reverse Integer
-#include <cstdint>
+#include <climits>
 
 class Solution
 {
