@@ -5,7 +5,8 @@ public class Solution
 {
 	public int LengthOfLongestSubstring(string inputString)
 	{
-		String longestSubstring = "", currentSubstring = "";
+		string longestSubstring = "";
+		string currentSubstring = "";
 
 		foreach (char character in inputString)
 		{
