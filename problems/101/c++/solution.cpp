@@ -1,4 +1,6 @@
 // 101. Symmetric Tree
+#include <cstddef>
+
 class Solution
 {
 	bool allSubtreesSymmetric(struct TreeNode* first, struct TreeNode* second)
