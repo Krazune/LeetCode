@@ -1,5 +1,5 @@
 // 104. Maximum Depth of Binary Tree
-#include <stdlib.h>
+#include <stddef.h>
 
 int maxDepth(struct TreeNode* root)
 {
