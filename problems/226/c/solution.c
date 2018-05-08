@@ -1,5 +1,4 @@
 // 226. Invert Binary Tree
-#include <stdbool.h>
 #include <stddef.h>
 
 struct TreeNode* invertTree(struct TreeNode* root)
