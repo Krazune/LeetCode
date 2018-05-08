@@ -8,7 +8,8 @@ class Solution
 	public:
 	int majorityElement(vector<int>& nums)
 	{
-		int count = 0, majority = 0;
+		int count = 0;
+		int majority = 0;
 
 		for (int num : nums)
 		{
