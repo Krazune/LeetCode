@@ -1,5 +1,6 @@
 // 504. Base 7
 #include <string>
+#include <cstdlib>
 
 using namespace std;
 
