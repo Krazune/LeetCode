@@ -1,12 +1,12 @@
 // 412. Fizz Buzz
 using System;
-using System.Collections;
+using System.Collections.Generic;
 
 public class Solution
 {
-	public IList<String> FizzBuzz(int quantity)
+	public IList<string> FizzBuzz(int quantity)
 	{
-		IList<String> numberList = new List<String>();
+		IList<string> numberList = new List<string>();
 
 		for (int index = 0, fizz = 1, buzz = 1; index < quantity; index++, fizz++, buzz++)
 		{
