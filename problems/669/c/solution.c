@@ -1,5 +1,5 @@
 // 669. Trim a Binary Search Tree
-#include <cstddef>
+#include <cstddef.h>
 
 struct TreeNode* trimBST(struct TreeNode* root, int L, int R)
 {
