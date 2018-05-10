@@ -6,7 +6,6 @@ using namespace std;
 
 class Solution
 {
-	public:
 	int getTotalImportance(unordered_map<int, Employee*>& employees, int id)
 	{
 		int importanceSum = employees[id]->importance;
@@ -19,6 +18,7 @@ class Solution
 		return importanceSum;
 	}
 
+	public:
 	int getImportance(vector<Employee*> employees, int id)
 	{
 		unordered_map<int, Employee*> employeeMap;
