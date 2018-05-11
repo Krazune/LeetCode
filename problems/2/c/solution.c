@@ -3,45 +3,56 @@
 
 struct ListNode* addTwoNumbers(struct ListNode* list1, struct ListNode* list2)
 {
-	if (list1 == NULL && list2 == NULL) return NULL;
-
-	struct ListNode* r = malloc(sizeof(struct ListNode)), *n = r, *p = NULL, *l1 = list1, *l2 = list2;
-	int c = 0;
-
-	while (l1 != NULL || l2 != NULL)
+	if (list1 == NULL && list2 == NULL)
 	{
-		int d1 = 0, d2 = 0, s = 0;
-
-		if (l1 != NULL)
-		{
-			d1 = l1->val;
-			l1 = l1->next;
-		}
-
-		if (l2 != NULL)
-		{
-			d2 = l2->val;
-			l2 = l2->next;
-		}
-
-		p = n;
-		s = d1 + d2 + c;
-		n->val = s % 10;
-		n->next = malloc(sizeof(struct ListNode));
-		n = n->next;
-		c = s / 10;
+		return NULL;
 	}
 
-	if (c == 1)
+	struct ListNode* result = malloc(sizeof(struct ListNode));
+	struct ListNode* currentNode = result;
+	struct ListNode* previousNode = NULL;
+	struct ListNode* list1Node = list1;
+	struct ListNode* list2Node = list2;
+	int carry = 0;
+
+	while (list1Node != NULL || list2Node != NULL)
 	{
-		n->val = 1;
-		n->next = NULL;
+		int digit1 = 0;
+		int digit2 = 0;
+		int sum = 0;
+
+		if (list1Node != NULL)
+		{
+			digit1 = list1Node->val;
+			list1Node = list1Node->next;
+		}
+
+		if (list2Node != NULL)
+		{
+			digit2 = list2Node->val;
+			list2Node = list2Node->next;
+		}
+
+		sum = digit1 + digit2 + carry;
+
+		previousNode = currentNode;		
+		currentNode->val = sum % 10;
+		currentNode->next = malloc(sizeof(struct ListNode));
+		currentNode = currentNode->next;
+		
+		carry = sum / 10;
+	}
+
+	if (carry == 1)
+	{
+		currentNode->val = 1;
+		currentNode->next = NULL;
 	}
 	else
 	{
-		p->next = NULL;
-		free(n);
+		previousNode->next = NULL;
+		free(currentNode);
 	}
 
-	return r;
+	return result;
 }
