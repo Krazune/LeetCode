@@ -15,6 +15,7 @@ Solutions for the LeetCode problems, using various languages.
 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [C#](https://github.com/Krazune/LeetCode/blob/master/problems/58/c%23/solution.cs)
 66 | [Plus One](https://leetcode.com/problems/plus-one/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/66/c++/solution.cpp)
 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/83/c/solution.c)
+94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/94/c++/solution.cpp)
 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/100/c/solution.c)
 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/101/c++/solution.cpp)
 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/104/c/solution.c)
