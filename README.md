@@ -22,6 +22,7 @@ Solutions for the LeetCode problems, using various languages.
 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/112/c++/solution.cpp)
 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/125/c++/solution.cpp)
 136 | [Single Number](https://leetcode.com/problems/single-number/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/136/c/solution.c)
+144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/144/c++/solution.cpp)
 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/169/c++/solution.cpp)
 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/191/c++/solution.cpp)
 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/206/c/solution.c)
