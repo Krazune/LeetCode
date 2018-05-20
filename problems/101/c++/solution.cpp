@@ -5,12 +5,11 @@ class Solution
 {
 	bool allSubtreesSymmetric(struct TreeNode* first, struct TreeNode* second)
 	{
-		if (first == NULL && second == NULL)
+		if (first == NULL)
 		{
-			return true;
+			return second == NULL;
 		}
-
-		if (first == NULL || second == NULL || first->val != second->val)
+		else if (second == NULL || first->val != second->val)
 		{
 			return false;
 		}
