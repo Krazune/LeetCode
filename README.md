@@ -20,6 +20,7 @@ Solutions for the LeetCode problems, using various languages.
 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/101/c++/solution.cpp)
 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/102/c++/solution.cpp)
 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/104/c/solution.c)
+106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/106/c++/solution.cpp)
 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/111/c++/solution.cpp)
 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/112/c++/solution.cpp)
 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/125/c++/solution.cpp)
