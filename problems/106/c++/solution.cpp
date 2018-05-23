@@ -25,13 +25,13 @@ class Solution
 		{
 			nodeIndices[inorder[nodeIndex]] = nodeIndex;
 		}
-		
+
 		parents.push(root);
-		
+
 		for (int postorderIndex = nodeCount - 2; postorderIndex >= 0; postorderIndex--)
 		{
 			TreeNode* newNode = new TreeNode(postorder[postorderIndex]);
-			
+
 			if (nodeIndices[postorder[postorderIndex]] > nodeIndices[parents.top()->val])
 			{
 				parents.top()->right = newNode;
@@ -39,7 +39,7 @@ class Solution
 			else
 			{
 				TreeNode* parent = parents.top();
-				
+
 				parents.pop();
 
 				while (!parents.empty() && nodeIndices[postorder[postorderIndex]] < nodeIndices[parents.top()->val])
@@ -47,10 +47,10 @@ class Solution
 					parent = parents.top();
 					parents.pop();
 				}
-				
+
 				parent->left = newNode;
 			}
-			
+
 			parents.push(newNode);
 		}
 

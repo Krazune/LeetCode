@@ -31,7 +31,7 @@ class Solution
 		for (int preorderIndex = 1; preorderIndex < nodeCount; preorderIndex++)
 		{
 			TreeNode* newNode = new TreeNode(preorder[preorderIndex]);
-			
+
 			if (nodeIndices[preorder[preorderIndex]] < nodeIndices[parents.top()->val])
 			{
 				parents.top()->left = newNode;
@@ -47,10 +47,10 @@ class Solution
 					parent = parents.top();
 					parents.pop();
 				}
-				
+
 				parent->right = newNode;
 			}
-			
+
 			parents.push(newNode);
 		}
 
