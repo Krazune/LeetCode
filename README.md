@@ -24,6 +24,7 @@ Solutions for the LeetCode problems, using various languages.
 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/106/c++/solution.cpp)
 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/111/c++/solution.cpp)
 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/112/c++/solution.cpp)
+116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/116/c++/solution.cpp)
 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/125/c++/solution.cpp)
 136 | [Single Number](https://leetcode.com/problems/single-number/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/136/c/solution.c)
 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/144/c++/solution.cpp)
