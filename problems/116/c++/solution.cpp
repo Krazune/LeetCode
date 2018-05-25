@@ -3,43 +3,34 @@
 
 class Solution
 {
-	void connectUsingParent(TreeLinkNode* root, TreeLinkNode* parent)
+	public:
+	void connect(TreeLinkNode* root)
 	{
 		if (root == NULL)
 		{
 			return;
 		}
 
-		if (parent == NULL)
-		{
-			root->next = NULL;
-		}
-		else
-		{
-			if (parent->left == root)
-			{
-				root->next = parent->right;
-			}
-			else
-			{
-				if (parent->next != NULL)
-				{
-					root->next = parent->next->left;
-				}
-				else
-				{
-					root->next = NULL;
-				}
-			}
-		}
+		TreeLinkNode* firstLevelNode = root;
+		TreeLinkNode* currentNode = NULL;
 
-		connectUsingParent(root->left, root);
-		connectUsingParent(root->right, root);
-	}
+		while (firstLevelNode->left != NULL)
+		{
+			currentNode = firstLevelNode;
 
-	public:
-	void connect(TreeLinkNode* root)
-	{
-		connectUsingParent(root, NULL);
+			while (currentNode != NULL)
+			{
+				currentNode->left->next = currentNode->right;
+
+				if (currentNode->next != NULL)
+				{
+					currentNode->right->next = currentNode->next->left;
+				}
+
+				currentNode = currentNode->next;
+			}
+
+			firstLevelNode = firstLevelNode->left;
+		}
 	}
 };
