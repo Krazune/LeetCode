@@ -35,6 +35,7 @@ Solutions for the LeetCode problems, using various languages.
 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/206/c/solution.c)
 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/226/c/solution.c) / [C++](https://github.com/Krazune/LeetCode/blob/master/problems/226/c++/solution.cpp)
 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/231/c++/solution.cpp)
+236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/236/c/solution.c)
 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/237/c++/solution.cpp)
 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/242/c++/solution.cpp)
 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/258/c/solution.c)
