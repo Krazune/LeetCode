@@ -63,7 +63,7 @@ Solutions for the LeetCode problems, using various languages.
 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/500/c++/solution.cpp)
 504 | [Base 7](https://leetcode.com/problems/base-7/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/504/c++/solution.cpp)
 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/520/c/solution.c)
-538 | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/538/c/solution.cpp)
+538 | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/538/c++/solution.cpp)
 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/557/c++/solution.cpp)
 566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/566/c++/solution.cpp)
 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/575/c++/solution.cpp)
