@@ -11,6 +11,7 @@ Solutions for the LeetCode problems, using various languages.
 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/20/c++/solution.cpp)
 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/26/c/solution.c)
 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/27/c/solution.c)
+33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/33/c++/solution.cpp)
 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/35/c/solution.c) / [C#](https://github.com/Krazune/LeetCode/blob/master/problems/35/c%23/solution.cs)
 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [C#](https://github.com/Krazune/LeetCode/blob/master/problems/58/c%23/solution.cs)
 66 | [Plus One](https://leetcode.com/problems/plus-one/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/66/c++/solution.cpp)
