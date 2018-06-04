@@ -3,7 +3,7 @@ Solutions for the LeetCode problems, using various languages.
 
 ## Problems
 \# | Title | Difficulty | Solution
---- | --- | --- | ---
+--- | --- | :---: | :---:
 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/1/c++/solution.cpp)
 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | :yellow_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/2/c/solution.c)
 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | :yellow_heart: | [C#](https://github.com/Krazune/LeetCode/blob/master/problems/3/c%23/solution.cs)
