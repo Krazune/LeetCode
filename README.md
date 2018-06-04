@@ -42,6 +42,7 @@ Solutions for the LeetCode problems, using various languages.
 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/242/c++/solution.cpp)
 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/258/c/solution.c)
 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/268/c/solution.c)
+278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/278/c++/solution.cpp)
 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/283/c/solution.c)
 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | [C](https://github.com/Krazune/LeetCode/blob/master/problems/292/c/solution.c)
 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/297/c++/solution.cpp)
