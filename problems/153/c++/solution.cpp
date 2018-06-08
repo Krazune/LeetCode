@@ -14,16 +14,17 @@ class Solution
 		while (left != right)
 		{
 			int mid = left + (right - left) / 2;
+			int leftValue = nums[left];
 
-			if (nums[mid] >= nums[left])
+			if (nums[mid] >= leftValue)
 			{
-				if (nums[left] > nums[right])
+				if (leftValue > nums[right])
 				{
 					left = mid + 1;
 				}
 				else
 				{
-					return nums[left];
+					return leftValue;
 				}
 			}
 			else
