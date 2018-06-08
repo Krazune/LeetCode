@@ -15,8 +15,9 @@ class Solution
 		while (left <= right)
 		{
 			int mid = left + (right - left) / 2;
+			int midValue = nums[mid];
 
-			if (nums[mid] == target)
+			if (midValue == target)
 			{
 				if (range[0] != -1 && range[0] < mid)
 				{
@@ -26,7 +27,7 @@ class Solution
 				range[0] = mid;
 				right = mid - 1;
 			}
-			else if (nums[mid] < target)
+			else if (midValue < target)
 			{
 				left = mid + 1;
 			}
@@ -47,8 +48,9 @@ class Solution
 		while (left <= right)
 		{
 			int mid = left + (right - left) / 2;
+			int midValue = nums[mid];
 
-			if (nums[mid] == target)
+			if (midValue == target)
 			{
 				if (range[1] > mid)
 				{
@@ -58,7 +60,7 @@ class Solution
 				range[1] = mid;
 				left = mid + 1;
 			}
-			else if (nums[mid] < target)
+			else if (midValue < target)
 			{
 				left = mid + 1;
 			}
