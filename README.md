@@ -32,6 +32,7 @@ Solutions for the LeetCode problems, using various languages.
 136 | [Single Number](https://leetcode.com/problems/single-number/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/136/c/solution.c)
 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/144/c++/solution.cpp)
 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | :heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/145/c++/solution.cpp)
+153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/153/c++/solution.cpp)
 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/162/c++/solution.cpp)
 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/169/c++/solution.cpp)
 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/191/c++/solution.cpp)
