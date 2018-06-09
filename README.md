@@ -82,6 +82,7 @@ Solutions for the LeetCode problems, using various languages.
 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/653/c++/solution.cpp)
 654 | [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/654/c++/solution.cpp)
 657 | [Judge Route Circle](https://leetcode.com/problems/judge-route-circle/) | :green_heart: | [C#](https://github.com/Krazune/LeetCode/blob/master/problems/657/c%23/solution.cs)
+658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/658/c++/solution.cpp)
 669 | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/669/c/solution.c)
 682 | [Baseball Game](https://leetcode.com/problems/baseball-game/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/682/c++/solution.cpp)
 690 | [Employee Importance](https://leetcode.com/problems/employee-importance/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/690/c++/solution.cpp)
