@@ -6,7 +6,7 @@ using namespace std;
 
 class Solution
 {
-	void getOrder(TreeNode* root, vector<vector<int>>& order, int level)
+	void setOrder(TreeNode* root, vector<vector<int>>& order, int level)
 	{
 		if (root == NULL)
 		{
@@ -20,18 +20,18 @@ class Solution
 
 		order[level].push_back(root->val);
 		level++;
-		
-		getOrder(root->left, order, level);
-		getOrder(root->right, order, level);
+
+		setOrder(root->left, order, level);
+		setOrder(root->right, order, level);
 	}
 
 	public:
 	vector<vector<int>> levelOrder(TreeNode* root)
 	{
 		vector<vector<int>> order;
-		
-		getOrder(root, order, 0);
-		
+
+		setOrder(root, order, 0);
+
 		return order;
 	}
 };
