@@ -20,6 +20,7 @@ Solutions for the LeetCode problems, using various languages.
 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/69/c++/solution.cpp)
 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/83/c/solution.c)
 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/94/c++/solution.cpp)
+98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/98/c++/solution.cpp)
 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/100/c/solution.c)
 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/101/c++/solution.cpp)
 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/102/c++/solution.cpp)
