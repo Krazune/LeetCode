@@ -42,6 +42,7 @@ Solutions for the LeetCode problems, using various languages.
 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/173/c++/solution.cpp)
 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/191/c++/solution.cpp)
 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/206/c/solution.c)
+208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/208/c++/solution.cpp)
 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/226/c/solution.c) / [C++](https://github.com/Krazune/LeetCode/blob/master/problems/226/c++/solution.cpp)
 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/231/c++/solution.cpp)
 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | :yellow_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/236/c/solution.c)
