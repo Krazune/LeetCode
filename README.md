@@ -114,3 +114,4 @@ Solutions for the LeetCode problems, using various languages.
 814 | [Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/814/c++/solution.cpp)
 821 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/821/c++/solution.cpp)
 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/832/c++/solution.cpp)
+852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/852/c++/solution.cpp)
