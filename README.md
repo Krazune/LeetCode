@@ -57,6 +57,7 @@ Solutions for the LeetCode problems, using various languages.
 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/283/c/solution.c)
 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/292/c/solution.c)
 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | :heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/297/c++/solution.cpp)
+338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/338/c/solution.c)
 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/344/c++/solution.cpp)
 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/345/c++/solution.cpp)
 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/367/c++/solution.cpp)
