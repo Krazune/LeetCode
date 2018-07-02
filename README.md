@@ -80,6 +80,7 @@ Solutions for the LeetCode problems, using various languages.
 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/496/c++/solution.cpp)
 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/500/c++/solution.cpp)
 504 | [Base 7](https://leetcode.com/problems/base-7/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/504/c++/solution.cpp)
+515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/515/c++/solution.cpp)
 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/520/c/solution.c)
 538 | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/538/c++/solution.cpp)
 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/557/c++/solution.cpp)
