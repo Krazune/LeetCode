@@ -27,17 +27,14 @@ class Solution
 
 			pixels.pop();
 
-			if (currentRow >= 0 && currentRow < image.size() && currentColumn >= 0 && currentColumn < image[0].size())
+			if (currentRow >= 0 && currentRow < image.size() && currentColumn >= 0 && currentColumn < image[0].size() && image[currentRow][currentColumn] == targetColor)
 			{
-				if (image[currentRow][currentColumn] == targetColor)
-				{
-					image[currentRow][currentColumn] = newColor;
+				image[currentRow][currentColumn] = newColor;
 
-					pixels.push(vector<int>({currentRow + 1, currentColumn}));
-					pixels.push(vector<int>({currentRow, currentColumn + 1}));
-					pixels.push(vector<int>({currentRow - 1, currentColumn}));
-					pixels.push(vector<int>({currentRow, currentColumn - 1}));
-				}
+				pixels.push(vector<int>({currentRow + 1, currentColumn}));
+				pixels.push(vector<int>({currentRow, currentColumn + 1}));
+				pixels.push(vector<int>({currentRow - 1, currentColumn}));
+				pixels.push(vector<int>({currentRow, currentColumn - 1}));
 			}
 		}
 
