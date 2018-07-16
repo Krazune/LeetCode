@@ -1,4 +1,4 @@
-// 868. Transpose Matrix
+// 867. Transpose Matrix
 #include <vector>
 
 using namespace std;
