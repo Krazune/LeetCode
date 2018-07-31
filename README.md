@@ -126,4 +126,4 @@ Solutions for the LeetCode problems, using various languages.
 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/852/c++/solution.cpp)
 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/868/c++/solution.cpp)
 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/868/c++/solution.cpp)
-876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/876/c++/solution.cpp)
+876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/876/c/solution.c)
