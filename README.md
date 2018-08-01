@@ -124,6 +124,7 @@ Solutions for the LeetCode problems, using various languages.
 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/830/c++/solution.cpp)
 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/832/c++/solution.cpp)
 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/852/c++/solution.cpp)
+860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/860/c++/solution.cpp)
 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/868/c++/solution.cpp)
 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/868/c++/solution.cpp)
 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/876/c/solution.c)
