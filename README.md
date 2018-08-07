@@ -64,6 +64,7 @@ Solutions for the LeetCode problems, using various languages.
 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | :yellow_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/338/c/solution.c)
 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/344/c++/solution.cpp)
 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/345/c++/solution.cpp)
+349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/349/c++/solution.cpp)
 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/367/c++/solution.cpp)
 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/374/c++/solution.cpp)
 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/383/c++/solution.cpp)
