@@ -8,6 +8,7 @@ Solutions for the LeetCode problems, using various languages.
 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | :yellow_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/2/c/solution.c)
 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | :yellow_heart: | [C#](https://github.com/Krazune/LeetCode/blob/master/problems/3/c%23/solution.cs)
 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/7/c++/solution.cpp)
+9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/9/c/solution.c)
 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/20/c++/solution.cpp)
 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/26/c/solution.c)
 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/27/c/solution.c)
