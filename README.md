@@ -98,6 +98,7 @@ Solutions for the LeetCode problems, using various languages.
 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/606/c++/solution.cpp)
 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/617/c++/solution.cpp)
 620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | :green_heart: | [MySQL](https://github.com/Krazune/LeetCode/blob/master/problems/620/mysql/solution.sql)
+622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | :yellow_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/622/c/solution.c)
 627 | [Swap Salary](https://leetcode.com/problems/swap-salary/) | :green_heart: | [MySQL](https://github.com/Krazune/LeetCode/blob/master/problems/627/mysql/solution.sql)
 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/628/c++/solution.cpp)
 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/653/c++/solution.cpp)
