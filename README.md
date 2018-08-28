@@ -91,6 +91,7 @@ Solutions for the LeetCode problems, using various languages.
 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/520/c/solution.c)
 538 | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/538/c++/solution.cpp)
 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/557/c++/solution.cpp)
+559 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/559/c++/solution.cpp)
 566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/566/c++/solution.cpp)
 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/575/c++/solution.cpp)
 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | :green_heart: | [MySQL](https://github.com/Krazune/LeetCode/blob/master/problems/595/mysql/solution.sql)
