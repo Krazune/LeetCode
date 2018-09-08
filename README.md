@@ -75,6 +75,7 @@ Solutions for the LeetCode problems, using various languages.
 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/404/c/solution.c)
 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/405/c++/solution.cpp)
 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | :green_heart: | [C#](https://github.com/Krazune/LeetCode/blob/master/problems/412/c%23/solution.cs)
+429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/429/c++/solution.cpp)
 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/434/c++/solution.cpp)
 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/441/c++/solution.cpp)
 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/442/c++/solution.cpp)
