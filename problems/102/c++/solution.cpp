@@ -6,31 +6,45 @@ using namespace std;
 
 class Solution
 {
-	void setOrder(TreeNode* root, vector<vector<int>>& order, int level)
-	{
-		if (root == NULL)
-		{
-			return;
-		}
-
-		if (order.size() == level)
-		{
-			order.push_back(vector<int>());
-		}
-
-		order[level].push_back(root->val);
-		level++;
-
-		setOrder(root->left, order, level);
-		setOrder(root->right, order, level);
-	}
-
 	public:
 	vector<vector<int>> levelOrder(TreeNode* root)
 	{
 		vector<vector<int>> order;
 
-		setOrder(root, order, 0);
+		if (root == NULL)
+		{
+			return order;
+		}
+
+		queue<TreeNode*> nodes;
+
+		nodes.push(root);
+
+		while (!nodes.empty())
+		{
+			int levelNodeCount = nodes.size();
+			vector<int> levelValues;
+
+			for (int levelNodeIndex = 0; levelNodeIndex < levelNodeCount; levelNodeIndex++)
+			{
+				TreeNode* currentNode = nodes.front();
+
+				nodes.pop();
+				levelValues.push_back(currentNode->val);
+
+				if (currentNode->left != NULL)
+				{
+					nodes.push(currentNode->left);
+				}
+
+				if (currentNode->right != NULL)
+				{
+					nodes.push(currentNode->right);
+				}
+			}
+
+			order.push_back(levelValues);
+		}
 
 		return order;
 	}
