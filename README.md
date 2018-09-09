@@ -103,6 +103,7 @@ Solutions for the LeetCode problems, using various languages.
 622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | :yellow_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/622/c/solution.c)
 627 | [Swap Salary](https://leetcode.com/problems/swap-salary/) | :green_heart: | [MySQL](https://github.com/Krazune/LeetCode/blob/master/problems/627/mysql/solution.sql)
 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/628/c++/solution.cpp)
+637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/637/c++/solution.cpp)
 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/653/c++/solution.cpp)
 654 | [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/654/c++/solution.cpp)
 657 | [Judge Route Circle](https://leetcode.com/problems/judge-route-circle/) | :green_heart: | [C#](https://github.com/Krazune/LeetCode/blob/master/problems/657/c%23/solution.cs)
