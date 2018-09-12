@@ -140,3 +140,4 @@ Solutions for the LeetCode problems, using various languages.
 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/868/c++/solution.cpp)
 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/872/c++/solution.cpp)
 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/876/c/solution.c)
+896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/896/c/solution.c)
