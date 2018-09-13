@@ -7,6 +7,7 @@ Solutions for the LeetCode problems, using various languages.
 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/1/c++/solution.cpp)
 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | :yellow_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/2/c/solution.c)
 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | :yellow_heart: | [C#](https://github.com/Krazune/LeetCode/blob/master/problems/3/c%23/solution.cs)
+6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/6/c++/solution.cpp)
 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/7/c++/solution.cpp)
 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/9/c/solution.c)
 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/20/c++/solution.cpp)
