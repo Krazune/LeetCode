@@ -1,5 +1,5 @@
 # LeetCode
-Solutions for the LeetCode problems, using various languages.
+Solutions for the LeetCode problems.
 
 ## Problems
 \# | Title | Difficulty | Solution
