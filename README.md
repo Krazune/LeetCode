@@ -144,3 +144,4 @@ Solutions for the LeetCode problems.
 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/872/c++/solution.cpp)
 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/876/c/solution.c)
 896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/896/c/solution.c)
+905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/905/c++/solution.cpp)
