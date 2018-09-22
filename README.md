@@ -147,5 +147,7 @@ Solutions for the LeetCode problems.
 905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/905/c++/solution.cpp)
 
 :green_heart: - Easy problem
+
 :yellow_heart: - Medium problem
+
 :heart: - Hard problem
