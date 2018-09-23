@@ -145,5 +145,6 @@ Solutions for the LeetCode problems.
 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/876/c/solution.c)
 896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/896/c/solution.c)
 905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/905/c++/solution.cpp)
+908 | [Smallest Range I](https://leetcode.com/problems/smallest-range-i/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/908/c/solution.c)
 
 :green_heart: - Easy problem; :yellow_heart: - Medium problem; :heart: - Hard problem.
