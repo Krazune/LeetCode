@@ -90,6 +90,7 @@ Solutions for the LeetCode problems.
 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/496/c++/solution.cpp)
 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/500/c++/solution.cpp)
 504 | [Base 7](https://leetcode.com/problems/base-7/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/504/c++/solution.cpp)
+506 | [Relative Ranks](https://leetcode.com/problems/relative-ranks/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/506/c++/solution.cpp)
 513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/513/c++/solution.cpp)
 515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/515/c++/solution.cpp)
 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/520/c/solution.c)
