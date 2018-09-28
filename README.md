@@ -120,6 +120,7 @@ Solutions for the LeetCode problems.
 690 | [Employee Importance](https://leetcode.com/problems/employee-importance/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/690/c++/solution.cpp)
 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | :green_heart: | [C#](https://github.com/Krazune/LeetCode/blob/master/problems/693/c%23/solution.cs)
 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/700/c++/solution.cpp)
+701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/701/c++/solution.cpp)
 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/709/c/solution.c)
 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | :green_heart: | [C#](https://github.com/Krazune/LeetCode/blob/master/problems/717/c%23/solution.cs)
 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/724/c++/solution.cpp)
