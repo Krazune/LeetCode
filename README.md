@@ -140,6 +140,7 @@ Solutions for the LeetCode problems.
 821 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/821/c++/solution.cpp)
 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/830/c++/solution.cpp)
 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/832/c++/solution.cpp)
+841 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/841/c++/solution.cpp)
 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/852/c++/solution.cpp)
 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/859/c++/solution.cpp)
 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/860/c++/solution.cpp)
