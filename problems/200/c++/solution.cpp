@@ -32,7 +32,7 @@ class Solution
 		}
 
 		int columnCount = grid[0].size();
-		vector<vector<bool>> visited (rowCount, vector<bool>(columnCount, false));
+		vector<vector<bool>> visited(rowCount, vector<bool>(columnCount, false));
 		int islandCount = 0;
 
 		for (int row = 0; row < rowCount; row++)
