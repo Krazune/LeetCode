@@ -47,6 +47,7 @@ Solutions for the LeetCode problems.
 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/162/c++/solution.cpp)
 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/169/c++/solution.cpp)
 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/173/c++/solution.cpp)
+181 | [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) | :green_heart: | [MySQL](https://github.com/Krazune/LeetCode/blob/master/problems/181/MySQL/solution.sql)
 182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | :green_heart: | [MySQL](https://github.com/Krazune/LeetCode/blob/master/problems/182/MySQL/solution.sql)
 183 | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | :green_heart: | [MySQL](https://github.com/Krazune/LeetCode/blob/master/problems/183/MySQL/solution.sql)
 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/190/c/solution.c)
