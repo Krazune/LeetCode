@@ -18,7 +18,7 @@ class Solution
 			{
 				if (isalpha(S[right]))
 				{
-                    swap(S[left], S[right]);
+					swap(S[left], S[right]);
 
 					left++;
 				}
