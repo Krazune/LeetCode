@@ -156,7 +156,7 @@ Solutions for the LeetCode problems.
 905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/905/c++/solution.cpp)
 908 | [Smallest Range I](https://leetcode.com/problems/smallest-range-i/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/908/c/solution.c)
 917 | [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/917/c++/solution.cpp)
-921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/valid-parentheses/) | :yellow_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/921/c/solution.c) / [C++](https://github.com/Krazune/LeetCode/blob/master/problems/921/c++/solution.cpp)
+921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | :yellow_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/921/c/solution.c) / [C++](https://github.com/Krazune/LeetCode/blob/master/problems/921/c++/solution.cpp)
 922 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/922/c++/solution.cpp)
 
 :green_heart: - Easy problem; :yellow_heart: - Medium problem; :heart: - Hard problem.
