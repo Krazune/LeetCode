@@ -99,6 +99,7 @@ Solutions for the LeetCode problems.
 513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/513/c++/solution.cpp)
 515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/515/c++/solution.cpp)
 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/520/c/solution.c)
+535 | [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/535/c++/solution.cpp)
 538 | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/538/c++/solution.cpp)
 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/557/c++/solution.cpp)
 559 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/559/c++/solution.cpp)
