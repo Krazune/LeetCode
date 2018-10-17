@@ -77,6 +77,7 @@ Solutions for the LeetCode problems.
 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/367/c++/solution.cpp)
 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/374/c++/solution.cpp)
 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/383/c++/solution.cpp)
+384 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/384/c++/solution.cpp)
 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/387/c/solution.c)
 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/389/c/solution.c) / [C#](https://github.com/Krazune/LeetCode/blob/master/problems/389/c%23/solution.cs)
 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/404/c/solution.c)
