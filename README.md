@@ -107,6 +107,7 @@ Solutions for the LeetCode problems.
 566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/566/c++/solution.cpp)
 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/575/c++/solution.cpp)
 589 | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/589/c++/solution.cpp)
+590 | [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/590/c++/solution.cpp)
 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | :green_heart: | [MySQL](https://github.com/Krazune/LeetCode/blob/master/problems/595/mysql/solution.sql)
 596 | [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/) | :green_heart: | [MySQL](https://github.com/Krazune/LeetCode/blob/master/problems/596/mysql/solution.sql)
 599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/599/c++/solution.cpp)
