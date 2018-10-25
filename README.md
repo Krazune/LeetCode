@@ -162,5 +162,6 @@ Solutions for the LeetCode problems.
 917 | [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/917/c++/solution.cpp)
 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | :yellow_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/921/c/solution.c) / [C++](https://github.com/Krazune/LeetCode/blob/master/problems/921/c++/solution.cpp)
 922 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/922/c++/solution.cpp)
+925 | [Long Pressed Name](https://leetcode.com/problems/long-pressed-name/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/925/c/solution.c)
 
 :green_heart: - Easy problem; :yellow_heart: - Medium problem; :heart: - Hard problem.
