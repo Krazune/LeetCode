@@ -131,6 +131,7 @@ Solutions for the LeetCode problems.
 701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/701/c++/solution.cpp)
 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/709/c/solution.c)
 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | :green_heart: | [C#](https://github.com/Krazune/LeetCode/blob/master/problems/717/c%23/solution.cs)
+722 | [Remove Comments](https://leetcode.com/problems/remove-comments/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/722/c++/solution.cpp)
 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/724/c++/solution.cpp)
 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/728/c++/solution.cpp)
 733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/733/c++/solution.cpp)
