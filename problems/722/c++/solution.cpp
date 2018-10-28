@@ -6,69 +6,98 @@ using namespace std;
 
 class Solution
 {
+	enum State
+	{
+		CODE_CHARACTER,
+		SLASH,
+		LINE_COMMENT,
+		BLOCK_COMMENT,
+		BLOCK_COMMENT_ASTERISK
+	};
+
 	public:
 	vector<string> removeComments(vector<string>& source)
 	{
 		vector<string> lines;
 		int lineCount = source.size();
+		State currentState = CODE_CHARACTER;
+		string line;
 
 		for (int lineIndex = 0; lineIndex < lineCount; lineIndex++)
 		{
-			string line;
+			int characterCount = source[lineIndex].size();
 
-			for (int characterIndex = 0; characterIndex < source[lineIndex].size(); characterIndex++)
+			for (int characterIndex = 0; characterIndex < characterCount; characterIndex++)
 			{
-				if (source[lineIndex][characterIndex] == '/')
+				char currentCharacter = source[lineIndex][characterIndex];
+
+				switch (currentState)
 				{
-					if (characterIndex < source[lineIndex].size() - 1)
+					case CODE_CHARACTER:
+					if (currentCharacter == '/')
 					{
-						if (source[lineIndex][characterIndex + 1] == '/')
-						{
-							break;
-						}
-						else if (source[lineIndex][characterIndex + 1] == '*')
-						{
-							characterIndex += 2;
-							bool commentFinished = false;
-
-							do
-							{
-								for (; characterIndex < source[lineIndex].size(); characterIndex++)
-								{
-									if (source[lineIndex][characterIndex] == '*' && characterIndex < source[lineIndex].size() - 1 && source[lineIndex][characterIndex + 1] == '/')
-									{
-										characterIndex++;
-										commentFinished = true;
-										break;
-									}
-								}
-
-								if (!commentFinished)
-								{
-									lineIndex++;
-									characterIndex = 0;
-								}
-							} while(!commentFinished);
-						}
-						else
-						{
-							line += source[lineIndex][characterIndex];
-						}
+						currentState = SLASH;
 					}
 					else
 					{
-						line += source[lineIndex][characterIndex];
+						line += currentCharacter;
 					}
+					break;
+
+					case SLASH:
+					if (currentCharacter == '/')
+					{
+						currentState = LINE_COMMENT;
+					}
+					else if (currentCharacter == '*')
+					{
+						currentState = BLOCK_COMMENT;
+					}
+					else
+					{
+						line += '/';
+						line += currentCharacter;
+						currentState = CODE_CHARACTER;
+					}
+					break;
+
+					case BLOCK_COMMENT:
+					if (currentCharacter == '*')
+					{
+						currentState = BLOCK_COMMENT_ASTERISK;
+					}
+					break;
+
+					case BLOCK_COMMENT_ASTERISK:
+					if (currentCharacter == '/')
+					{
+						currentState = CODE_CHARACTER;
+					}
+					else if (currentCharacter != '*')
+					{
+						currentState = BLOCK_COMMENT;
+					}
+					break;
 				}
-				else
+
+				if (currentState == LINE_COMMENT)
 				{
-					line += source[lineIndex][characterIndex];
+					currentState = CODE_CHARACTER;
+					break;
 				}
 			}
 
-			if (line.size() > 0)
+			if (currentState == SLASH)
+			{
+				line += '/';
+				currentState = CODE_CHARACTER;
+			}
+
+			if (currentState == CODE_CHARACTER && line.size() > 0)
 			{
 				lines.push_back(line);
+
+				line = "";
 			}
 		}
 
