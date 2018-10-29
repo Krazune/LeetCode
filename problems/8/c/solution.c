@@ -1,5 +1,6 @@
 // 8. String to Integer (atoi)
 #include <limits.h>
+
 int myAtoi(char* str)
 {
 	int characterIndex = 0;
