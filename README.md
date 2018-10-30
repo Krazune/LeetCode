@@ -138,6 +138,7 @@ Solutions for the LeetCode problems.
 733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/733/c++/solution.cpp)
 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/744/c/solution.c)
 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/747/c/solution.c)
+752 | [Open the Lock](https://leetcode.com/problems/open-the-lock/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/752/c++/solution.cpp)
 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/766/c++/solution.cpp)
 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/771/c++/solution.cpp)
 788 | [Rotated Digits](https://leetcode.com/problems/rotated-digits/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/788/c/solution.c)
