@@ -11,60 +11,63 @@ class Solution
 	public:
 	int openLock(vector<string>& deadends, string target)
 	{
-		set<string> deadEnds;
+		set<int> ends;
 
 		for (string deadEnd : deadends)
 		{
-			deadEnds.insert(deadEnd);
+			ends.insert(stoi(deadEnd));
 		}
 
-		if (deadEnds.find("0000") != deadEnds.end())
+		if (ends.find(0) != ends.end())
 		{
 			return -1;
 		}
 
-		queue<string> combinations;
-		set<string> combinationsVisited;
+		queue<int> possible;
+		set<int> visited;
 		int distance = 0;
 		int combinationSize = target.size();
+		int targetInteger = stoi(target);
 
-		combinations.push("0000");
-		combinationsVisited.insert("0000");
+		possible.push(0);
+		visited.insert(0);
 
-		while (!combinations.empty())
+		while (!possible.empty())
 		{
-			int combinationCount = combinations.size();
+			int combinationCount = possible.size();
 
 			for (int index = 0; index < combinationCount; index++)
 			{
-				string currentCombination = combinations.front();
+				int currentCombination = possible.front();
 
-				combinations.pop();
+				possible.pop();
 
-				if (currentCombination == target)
+				if (currentCombination == targetInteger)
 				{
 					return distance;
 				}
 
-				for (int characterIndex = 0; characterIndex < combinationSize; characterIndex++)
+				int digitsLeft = currentCombination;
+
+				for (int index = 0; index < combinationSize; index++)
 				{
-					int currentDigit = currentCombination[characterIndex] - '0';
-					string temporaryCombination = currentCombination;
+					int modifier = pow(10, index);
+					int digit = digitsLeft % 10;
+					int incremented = currentCombination + (digit == 9 ? -9 * modifier : modifier);
+					int decremented = currentCombination + (digit == 0 ? 9 * modifier : -modifier);
 
-					temporaryCombination[characterIndex] = (currentDigit + 1) % 10 + '0';
+					digitsLeft /= 10;
 
-					if (combinationsVisited.find(temporaryCombination) == combinationsVisited.end() && deadEnds.find(temporaryCombination) == deadEnds.end())
+					if (visited.find(incremented) == visited.end() && ends.find(incremented) == ends.end())
 					{
-						combinationsVisited.insert(temporaryCombination);
-						combinations.push(temporaryCombination);
+						visited.insert(incremented);
+						possible.push(incremented);
 					}
 
-					temporaryCombination[characterIndex] = (currentDigit + 9) % 10 + '0';
-
-					if (combinationsVisited.find(temporaryCombination) == combinationsVisited.end() && deadEnds.find(temporaryCombination) == deadEnds.end())
+					if (visited.find(decremented) == visited.end() && ends.find(decremented) == ends.end())
 					{
-						combinationsVisited.insert(temporaryCombination);
-						combinations.push(temporaryCombination);
+						visited.insert(decremented);
+						possible.push(decremented);
 					}
 				}
 			}
