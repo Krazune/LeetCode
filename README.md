@@ -42,6 +42,7 @@ Solutions for the LeetCode problems.
 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/141/c/solution.c)
 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/144/c++/solution.cpp)
 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | :heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/145/c++/solution.cpp)
+150 | [https://leetcode.com/problems/evaluate-reverse-polish-notation/] | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/150/c++/solution.cpp)
 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/153/c++/solution.cpp)
 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | :heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/154/c++/solution.cpp)
 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/155/c++/solution.cpp)
