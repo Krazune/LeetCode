@@ -152,7 +152,7 @@ Solutions for the LeetCode problems.
 814 | [Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/814/c++/solution.cpp)
 821 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/821/c++/solution.cpp)
 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/830/c++/solution.cpp)
-831 | [Masking Personal Information](https://leetcode.com/problems/masking-personal-information/) :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/831/c++/solution.cpp)
+831 | [Masking Personal Information](https://leetcode.com/problems/masking-personal-information/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/831/c++/solution.cpp)
 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/832/c++/solution.cpp)
 841 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/841/c++/solution.cpp)
 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/852/c++/solution.cpp)
