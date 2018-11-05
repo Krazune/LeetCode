@@ -31,11 +31,11 @@ class MyQueue
 
 	int pop()
 	{
-		int top = peek();
+		int front = peek();
 
 		myQueue.pop();
 
-		return top;
+		return front;
 	}
 
 	int peek()
