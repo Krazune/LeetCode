@@ -11,6 +11,7 @@ Solutions for the LeetCode problems.
 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/7/c++/solution.cpp)
 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | :yellow_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/8/c/solution.c)
 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/9/c/solution.c)
+14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/14/c++/solution.cpp)
 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/20/c++/solution.cpp)
 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/26/c/solution.c)
 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/27/c/solution.c)
