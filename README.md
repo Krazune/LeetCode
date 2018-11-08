@@ -146,6 +146,7 @@ Solutions for the LeetCode problems.
 752 | [Open the Lock](https://leetcode.com/problems/open-the-lock/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/752/c++/solution.cpp)
 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/766/c++/solution.cpp)
 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/771/c++/solution.cpp)
+784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/784/c++/solution.cpp)
 788 | [Rotated Digits](https://leetcode.com/problems/rotated-digits/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/788/c/solution.c)
 796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/796/c++/solution.cpp)
 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/804/c++/solution.cpp)
