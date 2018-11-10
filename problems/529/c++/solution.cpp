@@ -7,7 +7,7 @@ using namespace std;
 
 class Solution
 {
-	int getIndex(int row, int columnCount, int column)
+	int getIndex(int row, int column, int columnCount)
 	{
 		return row * columnCount + column;
 	}
@@ -25,71 +25,72 @@ class Solution
 	public:
 	vector<vector<char>> updateBoard(vector<vector<char>>& board, vector<int>& click)
 	{
-		char initialCellType = board[click[0]][click[1]];
+		int initialRow = click[0];
+		int initialColumn = click[1];
+
+		char initialCellType = board[initialRow][initialColumn];
 
 		if (initialCellType == 'M')
 		{
-			board[click[0]][click[1]] = 'X';
+			board[initialRow][initialColumn] = 'X';
 
 			return board;
 		}
 
-		queue<int> cells;
+		queue<int> cellsLeft;
+		set<int> cellsSeen;
 		int rowCount = board.size();
 		int columnCount = board[0].size();
-		set<int> seen;
 
-		cells.push(getIndex(click[0], columnCount, click[1]));
+		cellsLeft.push(getIndex(initialRow, initialColumn, columnCount));
 
-		while (!cells.empty())
+		while (!cellsLeft.empty())
 		{
-			int cellCount = cells.size();
+			int cellCount = cellsLeft.size();
 
-			for (int cellIndex = 0; cellIndex < cellCount; cellIndex++)
+			for (int cellCounter = 0; cellCounter < cellCount; ++cellCounter)
 			{
-				int currentCellIndex = cells.front();
+				int cellIndex = cellsLeft.front();
 
-				cells.pop();
+				cellsLeft.pop();
 
-				if (seen.find(currentCellIndex) != seen.end())
+				if (cellsSeen.find(cellIndex) != cellsSeen.end())
 				{
 					continue;
 				}
 
-				int cellRow = getRow(currentCellIndex, columnCount);
-				int cellColumn = getColumn(currentCellIndex, columnCount);
-
-				seen.insert(getIndex(cellRow, columnCount, cellColumn));
-
+				int cellRow = getRow(cellIndex, columnCount);
+				int cellColumn = getColumn(cellIndex, columnCount);
 				int mineCount = 0;
 				vector<int> borderCells;
 
-				for (int currentRow = -1; currentRow < 2; currentRow++)
+				cellsSeen.insert(getIndex(cellRow, cellColumn, columnCount));
+
+				for (int rowModifier = -1; rowModifier < 2; ++rowModifier)
 				{
-					for (int currentColumn = -1; currentColumn < 2; currentColumn++)
+					for (int columnModifier = -1; columnModifier < 2; ++columnModifier)
 					{
-						if (currentRow == 0 && currentColumn == 0)
+						if (rowModifier == 0 && columnModifier == 0)
 						{
 							continue;
 						}
 
-						int boardRow = cellRow + currentRow;
-						int boardColumn = cellColumn + currentColumn;
+						int borderRow = cellRow + rowModifier;
+						int borderColumn = cellColumn + columnModifier;
 
-						if (boardRow >= 0 && boardRow < rowCount && boardColumn >= 0 && boardColumn < columnCount)
+						if (borderRow >= 0 && borderRow < rowCount && borderColumn >= 0 && borderColumn < columnCount)
 						{
-							if (board[boardRow][boardColumn] == 'M')
+							if (board[borderRow][borderColumn] == 'M')
 							{
-								mineCount++;
+								++mineCount;
 							}
 							else
 							{
-								borderCells.push_back(getIndex(boardRow, columnCount, boardColumn));
+								borderCells.push_back(getIndex(borderRow, borderColumn, columnCount));
 							}
 						}
 					}
 				}
-
 
 				if (mineCount > 0)
 				{
@@ -101,7 +102,7 @@ class Solution
 
 					for (int borderCell : borderCells)
 					{
-						cells.push(borderCell);
+						cellsLeft.push(borderCell);
 					}
 				}
 			}
