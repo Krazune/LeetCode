@@ -22,5 +22,7 @@ class Solution
 
 			differences.insert({numbers[index], index});
 		}
+
+		return vector<int>();
 	}
 };
