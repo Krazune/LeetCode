@@ -22,7 +22,7 @@ class Solution
 				resultImage[rowIndex][low] = resultImage[rowIndex][high] ^ 1;
 				resultImage[rowIndex][high] = temporary ^ 1;
 			}
-			
+
 			if (hasUnevenColumns)
 			{
 				resultImage[rowIndex][halfWidth] ^= 1;
