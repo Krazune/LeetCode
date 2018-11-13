@@ -9,11 +9,11 @@ class Solution
 	int titleToNumber(string s)
 	{
 		int column = 0;
-		int titleSize = s.size();
+		int lastIndex = s.size() - 1;
 
-		for (int letterIndex = titleSize - 1; letterIndex >= 0; --letterIndex)
+		for (int letterIndex = lastIndex; letterIndex >= 0; --letterIndex)
 		{
-			column += (s[letterIndex] - 'A' + 1) * pow(26, titleSize - letterIndex - 1);
+			column += (s[letterIndex] - 'A' + 1) * pow(26, lastIndex - letterIndex);
 		}
 
 		return column;
