@@ -51,6 +51,7 @@ Solutions for the LeetCode problems.
 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/160/c++/solution.cpp)
 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/162/c++/solution.cpp)
 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/169/c++/solution.cpp)
+171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/171/c++/solution.cpp)
 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/173/c++/solution.cpp)
 181 | [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) | :green_heart: | [MySQL](https://github.com/Krazune/LeetCode/blob/master/problems/181/mysql/solution.sql)
 182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | :green_heart: | [MySQL](https://github.com/Krazune/LeetCode/blob/master/problems/182/mysql/solution.sql)
