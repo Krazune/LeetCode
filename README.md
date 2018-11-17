@@ -136,6 +136,7 @@ Solutions for the LeetCode problems.
 682 | [Baseball Game](https://leetcode.com/problems/baseball-game/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/682/c++/solution.cpp)
 690 | [Employee Importance](https://leetcode.com/problems/employee-importance/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/690/c++/solution.cpp)
 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | :green_heart: | [C#](https://github.com/Krazune/LeetCode/blob/master/problems/693/c%23/solution.cs)
+695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/695/c++/solution.cpp)
 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/700/c++/solution.cpp)
 701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/701/c++/solution.cpp)
 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/709/c/solution.c)
