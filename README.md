@@ -139,6 +139,7 @@ Solutions for the LeetCode problems.
 695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/695/c++/solution.cpp)
 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/700/c++/solution.cpp)
 701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/701/c++/solution.cpp)
+704 | [Binary Search](https://leetcode.com/problems/binary-search/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/704/c++/solution.cpp)
 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/709/c/solution.c)
 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | :green_heart: | [C#](https://github.com/Krazune/LeetCode/blob/master/problems/717/c%23/solution.cs)
 722 | [Remove Comments](https://leetcode.com/problems/remove-comments/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/722/c++/solution.cpp)
