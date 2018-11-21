@@ -140,6 +140,7 @@ Solutions for the LeetCode problems.
 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/700/c++/solution.cpp)
 701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/701/c++/solution.cpp)
 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/704/c++/solution.cpp)
+705 | [Design HashSet](https://leetcode.com/problems/design-hashset/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/705/c++/solution.cpp)
 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/706/c++/solution.cpp)
 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/709/c/solution.c)
 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | :green_heart: | [C#](https://github.com/Krazune/LeetCode/blob/master/problems/717/c%23/solution.cs)
