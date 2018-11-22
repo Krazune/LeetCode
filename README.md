@@ -185,5 +185,6 @@ Solutions for the LeetCode problems.
 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/929/c++/solution.cpp)
 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/933/c++/solution.cpp)
 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | :yellow_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/938/c/solution.c)
+941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/941/c++/solution.cpp)
 
 :green_heart: - Easy problem; :yellow_heart: - Medium problem; :heart: - Hard problem.
