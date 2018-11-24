@@ -155,6 +155,7 @@ Solutions for the LeetCode problems.
 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/771/c++/solution.cpp)
 784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/784/c++/solution.cpp)
 788 | [Rotated Digits](https://leetcode.com/problems/rotated-digits/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/788/c/solution.c)
+791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/791/c++/solution.cpp)
 796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/796/c++/solution.cpp)
 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/804/c++/solution.cpp)
 806 | [Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/806/c/solution.c) / [C++](https://github.com/Krazune/LeetCode/blob/master/problems/806/c++/solution.cpp)
