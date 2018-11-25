@@ -25,7 +25,7 @@ class Solution
 
 			if (characterFound != characterOccurrences.end())
 			{
-				for (int i = characterFound->second; i > 0; --i)
+				for (int counter = characterFound->second; counter > 0; --counter)
 				{
 					sortedString += character;
 				}
@@ -34,11 +34,11 @@ class Solution
 			}
 		}
 
-		for (unordered_map<char, int>::iterator i = characterOccurrences.begin(); i != characterOccurrences.end(); advance(i, 1))
+		for (unordered_map<char, int>::iterator characterIterator = characterOccurrences.begin(); characterIterator != characterOccurrences.end(); advance(characterIterator, 1))
 		{
-			for (int j = i->second; j > 0; --j)
+			for (int counter = characterIterator->second; counter > 0; --counter)
 			{
-				sortedString += i->first;
+				sortedString += characterIterator->first;
 			}
 		}
 
