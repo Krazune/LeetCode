@@ -188,5 +188,6 @@ Solutions for the LeetCode problems.
 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | :yellow_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/problems/938/c/solution.c)
 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/941/c++/solution.cpp)
 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/944/c++/solution.cpp)
+946 | [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/problems/946/c++/solution.cpp)
 
 :green_heart: - Easy problem; :yellow_heart: - Medium problem; :heart: - Hard problem.
