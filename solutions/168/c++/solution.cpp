@@ -18,7 +18,6 @@ class Solution
 			char letter = n % 26 + 'A';
 
 			title += letter;
-
 			n /= 26;
 		}
 
