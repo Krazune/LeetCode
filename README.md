@@ -50,6 +50,7 @@ Solutions for the LeetCode problems.
 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/155/c++/solution.cpp)
 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/160/c++/solution.cpp)
 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/162/c++/solution.cpp)
+168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/168/c++/solution.cpp)
 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/169/c++/solution.cpp)
 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/171/c++/solution.cpp)
 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/173/c++/solution.cpp)
