@@ -42,8 +42,8 @@ class Solution
 
 				char currentWordCharacter = currentWord[characterIndex];
 				char previousWordCharacter = previousWord[characterIndex];
-				int currentWordCharacterIndex = alienOrder[currentWord[characterIndex]];
-				int previousWordCharacterIndex = alienOrder[previousWord[characterIndex]];
+				int currentWordCharacterIndex = alienOrder[currentWordCharacter];
+				int previousWordCharacterIndex = alienOrder[previousWordCharacter];
 
 				if (currentWordCharacterIndex > previousWordCharacterIndex)
 				{
