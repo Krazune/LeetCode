@@ -92,7 +92,7 @@ Solutions for the LeetCode problems.
 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/404/c/solution.c)
 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/405/c++/solution.cpp)
 409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/409/c/solution.c)
-412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | :green_heart: | [C#](https://github.com/Krazune/LeetCode/blob/master/solutions/412/c%23/solution.cs)
+412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/412/c++/solution.cpp) / [C#](https://github.com/Krazune/LeetCode/blob/master/solutions/412/c%23/solution.cs)
 429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/429/c++/solution.cpp)
 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/434/c++/solution.cpp)
 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/441/c++/solution.cpp)
