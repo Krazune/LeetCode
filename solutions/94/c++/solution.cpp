@@ -10,10 +10,10 @@ class Solution
 	public:
 	vector<int> inorderTraversal(TreeNode* root)
 	{
-		vector<int> preorder;
+		vector<int> inorder;
 		stack<TreeNode*> nodesLeft;
 		TreeNode* currentNode = root;
-		
+
 		while (!nodesLeft.empty() || currentNode != NULL)
 		{
 			if (currentNode != NULL)
@@ -25,11 +25,11 @@ class Solution
 			{
 				currentNode = nodesLeft.top();
 				nodesLeft.pop();
-				preorder.push_back(currentNode->val);
+				inorder.push_back(currentNode->val);
 				currentNode = currentNode->right;
 			}
 		}
 
-		return preorder;
+		return inorder;
 	}
 };
