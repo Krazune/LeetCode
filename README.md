@@ -165,6 +165,7 @@ Solutions for the LeetCode problems.
 814 | [Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/814/c++/solution.cpp)
 817 | [Linked List Components](https://leetcode.com/problems/linked-list-components/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/817/c++/solution.cpp)
 821 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/821/c++/solution.cpp)
+824 | [Goat Latin](https://leetcode.com/problems/goat-latin/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/824/c++/solution.cpp)
 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/830/c++/solution.cpp)
 831 | [Masking Personal Information](https://leetcode.com/problems/masking-personal-information/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/831/c++/solution.cpp)
 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/832/c++/solution.cpp)
