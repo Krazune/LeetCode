@@ -193,6 +193,7 @@ Solutions for the LeetCode problems.
 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/944/c++/solution.cpp)
 946 | [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/946/c++/solution.cpp)
 953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/953/c++/solution.cpp)
+961 | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/961/c++/solution.cpp)
 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/965/c++/solution.cpp)
 
 :green_heart: - Easy problem; :yellow_heart: - Medium problem; :heart: - Hard problem.
