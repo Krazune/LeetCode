@@ -11,6 +11,7 @@ Solutions for the LeetCode problems.
 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/7/c++/solution.cpp)
 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | :yellow_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/8/c/solution.c)
 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/9/c/solution.c)
+13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/13/c++/solution.cpp)
 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/14/c++/solution.cpp)
 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/20/c++/solution.cpp)
 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/24/c++/solution.cpp)
