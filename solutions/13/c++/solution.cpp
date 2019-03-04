@@ -17,7 +17,7 @@ class Solution
 			{ 'L', 50 },
 			{ 'C', 100 },
 			{ 'D', 500 },
-			{ 'M', 1000	}
+			{ 'M', 1000 }
 		});
 
 		for (int index = 0; index < s.size(); ++index)
