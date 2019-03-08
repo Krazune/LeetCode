@@ -9,17 +9,18 @@ class Solution
 	vector<int> getRow(int rowIndex)
 	{
 		int count = rowIndex + 1;
-		vector<int> row(count, 1);
-		vector<int> previousRow(count, 1);
+		vector<int> row(1, 1);
 
-		for (int currentRow = 1; currentRow < count; ++currentRow)
+		for (int currentRowIndex = 1; currentRowIndex < count; ++currentRowIndex)
 		{
-			for (int index = 1; index < currentRow; ++index)
+			vector<int> nextRow(currentRowIndex + 1, 1);
+
+			for (int valueIndex = 1; valueIndex < currentRowIndex; ++valueIndex)
 			{
-				row[index] = previousRow[index - 1] + previousRow[index];
+				nextRow[valueIndex] = row[valueIndex - 1] + row[valueIndex];
 			}
 
-			previousRow = row;
+			row = nextRow;
 		}
 
 		return row;
