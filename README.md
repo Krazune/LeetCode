@@ -137,6 +137,7 @@ Solutions for the LeetCode problems.
 658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/658/c++/solution.cpp)
 661 | [Image Smoother](https://leetcode.com/problems/image-smoother/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/661/c++/solution.cpp)
 669 | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/669/c/solution.c)
+670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/670/c++/solution.cpp)
 682 | [Baseball Game](https://leetcode.com/problems/baseball-game/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/682/c++/solution.cpp)
 690 | [Employee Importance](https://leetcode.com/problems/employee-importance/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/690/c++/solution.cpp)
 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | :green_heart: | [C#](https://github.com/Krazune/LeetCode/blob/master/solutions/693/c%23/solution.cs)
