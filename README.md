@@ -41,6 +41,7 @@ Solutions for the LeetCode problems.
 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/116/c++/solution.cpp)
 117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | :yellow_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/117/c/solution.c)
 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/118/c++/solution.cpp)
+119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/119/c++/solution.cpp)
 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/125/c++/solution.cpp)
 136 | [Single Number](https://leetcode.com/problems/single-number/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/136/c/solution.c)
 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/141/c/solution.c)
