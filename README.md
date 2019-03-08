@@ -74,6 +74,7 @@ Solutions for the LeetCode problems.
 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/237/c++/solution.cpp)
 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/238/c++/solution.cpp)
 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/242/c++/solution.cpp)
+257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/257/c++/solution.cpp)
 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/258/c/solution.c)
 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/268/c/solution.c)
 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/278/c++/solution.cpp)
