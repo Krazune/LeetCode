@@ -159,7 +159,7 @@ Solutions for the LeetCode problems.
 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/747/c/solution.c)
 752 | [Open the Lock](https://leetcode.com/problems/open-the-lock/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/752/c++/solution.cpp)
 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/766/c++/solution.cpp)
-771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/771/c++/solution.cpp)
+771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/771/c++/solution.cpp) / [Java](https://github.com/Krazune/LeetCode/blob/master/solutions/771/java/Solution.java)
 784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/784/c++/solution.cpp)
 788 | [Rotated Digits](https://leetcode.com/problems/rotated-digits/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/788/c/solution.c)
 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/791/c++/solution.cpp)
