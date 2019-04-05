@@ -204,5 +204,6 @@ Solutions for the LeetCode problems.
 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/977/c++/solution.cpp)
 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/993/c++/solution.cpp)
 999 | [Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/999/c++/solution.cpp)
+1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | :yellow_heart: | [Java](https://github.com/Krazune/LeetCode/blob/master/solutions/1008/java/Solution.java)
 
 :green_heart: - Easy problem; :yellow_heart: - Medium problem; :heart: - Hard problem.
