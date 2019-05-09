@@ -207,5 +207,6 @@ Solutions for the LeetCode problems.
 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/993/c++/solution.cpp)
 999 | [Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/999/c++/solution.cpp)
 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | :yellow_heart: | [Java](https://github.com/Krazune/LeetCode/blob/master/solutions/1008/java/Solution.java)
+1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/1021/c++/solution.cpp)
 
 :green_heart: - Easy problem; :yellow_heart: - Medium problem; :heart: - Hard problem.
