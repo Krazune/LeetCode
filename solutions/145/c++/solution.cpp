@@ -1,6 +1,5 @@
 // 145. Binary Tree Postorder Traversal
 #include <vector>
-#include <cstddef>
 #include <stack>
 
 using namespace std;
@@ -10,58 +9,43 @@ class Solution
 	public:
 	vector<int> postorderTraversal(TreeNode* root)
 	{
+		vector<int> postorderValues;
+
 		if (root == NULL)
 		{
-			return vector<int>(0);
+			return postorderValues;
 		}
 
-		vector<int> postorder;
-		stack<TreeNode*> nodesLeft;
-		TreeNode* previous = NULL;
-		
-		nodesLeft.push(root);
-		
-		while (!nodesLeft.empty())
+		stack<TreeNode*> nodes;
+		TreeNode* previousNode = NULL;
+
+		nodes.push(root);
+
+		while (!nodes.empty())
 		{
-			TreeNode* currentNode = nodesLeft.top();
-			
-			if (previous == NULL || previous->left == currentNode || previous->right == currentNode)
+			TreeNode* currentNode = nodes.top();
+
+			if (previousNode != NULL && (currentNode->left == previousNode || currentNode->right == previousNode) || previousNode == currentNode)
 			{
-				if (currentNode->left != NULL)
-				{
-					nodesLeft.push(currentNode->left);
-				}
-				else if (currentNode->right != NULL)
-				{
-					nodesLeft.push(currentNode->right);
-				}
-				else
-				{
-					postorder.push_back(nodesLeft.top()->val);
-					nodesLeft.pop();
-				}
+				postorderValues.push_back(currentNode->val);
+				nodes.pop();
 			}
-			else if (currentNode->left == previous)
+			else
 			{
 				if (currentNode->right != NULL)
 				{
-					nodesLeft.push(currentNode->right);
+					nodes.push(currentNode->right);
 				}
-				else
+
+				if (currentNode->left != NULL)
 				{
-					postorder.push_back(nodesLeft.top()->val);
-					nodesLeft.pop();
+					nodes.push(currentNode->left);
 				}
 			}
-			else if (currentNode->right == previous)
-			{
-				postorder.push_back(nodesLeft.top()->val);
-				nodesLeft.pop();
-			}
-			
-			previous = currentNode;
+
+			previousNode = currentNode;
 		}
-		
-		return postorder;
+
+		return postorderValues;
 	}
 };
