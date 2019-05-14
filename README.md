@@ -209,5 +209,6 @@ Solutions for the LeetCode problems.
 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/1002/c++/solution.cpp)
 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | :yellow_heart: | [Java](https://github.com/Krazune/LeetCode/blob/master/solutions/1008/java/Solution.java)
 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/1021/c++/solution.cpp)
+1038 | [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/1038/c++/solution.cpp)
 
 :green_heart: - Easy problem; :yellow_heart: - Medium problem; :heart: - Hard problem.
