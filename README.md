@@ -81,6 +81,7 @@ Solutions for the LeetCode problems.
 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/268/c/solution.c)
 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/278/c++/solution.cpp)
 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/283/c/solution.c)
+289 | [Game of Life](https://leetcode.com/problems/game-of-life/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/289/c++/solution.cpp)
 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/292/c/solution.c)
 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | :heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/297/c++/solution.cpp)
 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | :green_heart: | [Java](https://github.com/Krazune/LeetCode/blob/master/solutions/303/java/Solution.java)
