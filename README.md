@@ -110,7 +110,7 @@ Solutions for the LeetCode problems.
 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/463/c++/solution.cpp)
 476 | [Number Complement](https://leetcode.com/problems/number-complement/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/476/c/solution.c)
 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/485/c++/solution.cpp)
-495 | [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/495/c++/solution.cpp)
+495 | [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/) | :yellow_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/495/c/solution.c) / [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/495/c++/solution.cpp)
 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/496/c++/solution.cpp)
 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/500/c++/solution.cpp)
 504 | [Base 7](https://leetcode.com/problems/base-7/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/504/c++/solution.cpp)
