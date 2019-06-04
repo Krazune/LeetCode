@@ -1,6 +1,6 @@
 // 430. Flatten a Multilevel Doubly Linked List
-import java.util.deque;
-import java.util.linkedlist;
+import java.util.Deque;
+import java.util.LinkedList;
 
 class Solution
 {
