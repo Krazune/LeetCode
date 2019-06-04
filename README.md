@@ -200,7 +200,7 @@ Solutions for the LeetCode problems.
 925 | [Long Pressed Name](https://leetcode.com/problems/long-pressed-name/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/925/c/solution.c)
 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/929/c++/solution.cpp)
 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/933/c++/solution.cpp)
-938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | :yellow_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/938/c/solution.c)
+938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | :yellow_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/938/c/solution.c) / [Java](https://github.com/Krazune/LeetCode/blob/master/solutions/938/java/Solution.java)
 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/941/c++/solution.cpp)
 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/944/c++/solution.cpp)
 946 | [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/946/c++/solution.cpp)
