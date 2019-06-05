@@ -25,6 +25,7 @@ Solutions for the LeetCode problems.
 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | :yellow_heart: | [Java](https://github.com/Krazune/LeetCode/blob/master/solutions/62/java/Solution.java)
 66 | [Plus One](https://leetcode.com/problems/plus-one/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/66/c++/solution.cpp)
 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/69/c++/solution.cpp)
+71 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | :yellow_heart: | [Java](https://github.com/Krazune/LeetCode/blob/master/solutions/71/java/Solution.java)
 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | :yellow_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/75/c/solution.c)
 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/83/c/solution.c)
 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/94/c++/solution.cpp)
