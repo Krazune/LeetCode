@@ -23,6 +23,7 @@ Solutions for the LeetCode problems.
 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/50/c/solution.c)
 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | :green_heart: | [C#](https://github.com/Krazune/LeetCode/blob/master/solutions/58/c%23/solution.cs)
 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | :yellow_heart: | [Java](https://github.com/Krazune/LeetCode/blob/master/solutions/62/java/Solution.java)
+63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | :yellow_heart: | [Java](https://github.com/Krazune/LeetCode/blob/master/solutions/63/java/Solution.java)
 66 | [Plus One](https://leetcode.com/problems/plus-one/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/66/c++/solution.cpp)
 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/69/c++/solution.cpp)
 71 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | :yellow_heart: | [Java](https://github.com/Krazune/LeetCode/blob/master/solutions/71/java/Solution.java)
