@@ -220,5 +220,6 @@ Solutions for the LeetCode problems.
 1028 | [Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/) | :heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/1028/c++/solution.cpp)
 1038 | [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/1038/c++/solution.cpp)
 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | :green_heart: | [Java](https://github.com/Krazune/LeetCode/blob/master/solutions/1071/java/Solution.java)
+1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | :green_heart: | [Java](https://github.com/Krazune/LeetCode/blob/master/solutions/1078/java/Solution.java)
 
 :green_heart: - Easy problem; :yellow_heart: - Medium problem; :heart: - Hard problem.
