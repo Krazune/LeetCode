@@ -224,5 +224,6 @@ Solutions for the LeetCode problems.
 1089 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/1089/c++/solution.cpp)
 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/1108/c/solution.c) / [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/1108/c++/solution.cpp)
 1154 | [Day of the Year](https://leetcode.com/problems/day-of-the-year/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/1154/c++/solution.cpp)
+1221 | [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/1221/c/solution.c)
 
 :green_heart: - Easy problem; :yellow_heart: - Medium problem; :heart: - Hard problem.
