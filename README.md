@@ -228,5 +228,6 @@ Solutions for the LeetCode problems.
 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | :green_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/1207/c++/solution.cpp)
 1221 | [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/1221/c/solution.c)
 1227 | [Airplane Seat Assignment Probability](https://leetcode.com/problems/airplane-seat-assignment-probability) | :yellow_heart: | [C++](https://github.com/Krazune/LeetCode/blob/master/solutions/1227/c++/solution.cpp)
+1313 | [Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | :green_heart: | [C](https://github.com/Krazune/LeetCode/blob/master/solutions/1313/c/solution.c)
 
 :green_heart: - Easy problem; :yellow_heart: - Medium problem; :heart: - Hard problem.
