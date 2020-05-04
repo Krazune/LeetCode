@@ -1,4 +1,6 @@
 // 1313. Decompress Run-Length Encoded List
+#include <stdlib.h>
+
 int *decompressRLElist(int *nums, int numsSize, int *returnSize)
 {
 	int decompressedSize = 0;
