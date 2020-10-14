@@ -232,5 +232,6 @@ Solutions for the LeetCode problems.
 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | :green_heart: | [C](solutions/1295/c/solution.c)
 1313 | [Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | :green_heart: | [C](solutions/1313/c/solution.c)
 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | :green_heart: | [C](solutions/1417/c/solution.c)
+1614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | :green_heart: | [C++](solutions/1614/c++/solution.cpp)
 
 :green_heart: - Easy problem; :yellow_heart: - Medium problem; :heart: - Hard problem.
