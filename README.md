@@ -231,7 +231,7 @@ Solutions for the LeetCode problems.
 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | :green_heart: | [C](solutions/1281/c/solution.c)
 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | :green_heart: | [C](solutions/1295/c/solution.c)
 1313 | [Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | :green_heart: | [C](solutions/1313/c/solution.c)
-1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | :green_heart: | [C++](solutions/1365/c++/solution.cpp)
+1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | :green_heart: | [C++](solutions/1365/c++/solution.cpp) / [JS](solutions/1365/js/solution.js)
 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | :green_heart: | [C](solutions/1417/c/solution.c)
 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | :green_heart: | [C++](solutions/1431/c++/solution.cpp)
 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | :green_heart: | [C++](solutions/1470/c++/solution.cpp)
