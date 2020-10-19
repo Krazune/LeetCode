@@ -239,6 +239,7 @@ Solutions for the LeetCode problems.
 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | :green_heart: | [C++](solutions/1470/c++/solution.cpp)
 1476 | [Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/) | :yellow_heart: | [C++](solutions/1476/c++/solution.cpp)
 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | :green_heart: | [C++](solutions/1480/c++/solution.cpp)
+1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | :green_heart: | [C++](solutions/1486/c++/solution.cpp)
 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | :green_heart: | [C](solutions/1528/c/solution.c) / [C++](solutions/1528/c++/solution.cpp) / [JavaScript](solutions/1528/js/solution.js)
 1614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | :green_heart: | [C++](solutions/1614/c++/solution.cpp)
 
