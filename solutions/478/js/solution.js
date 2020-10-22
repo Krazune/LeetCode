@@ -9,7 +9,7 @@ var Solution = function(radius, x_center, y_center)
 Solution.prototype.randPoint = function()
 {
 	let randomRadian = Math.random() * Math.PI * 2;
-	let distance = Math.sqrt(Math.random()) * this._radius; // Doesn't include the cinrcumference.
+	let distance = Math.sqrt(Math.random()) * this._radius; // Doesn't include the circumference.
 
 	let point = new Array(2);
 
