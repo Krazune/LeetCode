@@ -239,7 +239,7 @@ Solutions for the LeetCode problems.
 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | :yellow_heart: | [C++](solutions/1379/c++/solution.cpp) / [JavaScript](solutions/1379/js/solution.js)
 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | :green_heart: | [C](solutions/1417/c/solution.c)
 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | :green_heart: | [C++](solutions/1431/c++/solution.cpp)
-1436 | [Destination City](https://leetcode.com/problems/destination-city/) | :green_heart: | [C++](solutions/c++/1436/solution.cpp)
+1436 | [Destination City](https://leetcode.com/problems/destination-city/) | :green_heart: | [C++](solutions/1436/c++/solution.cpp)
 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | :green_heart: | [C++](solutions/1470/c++/solution.cpp)
 1476 | [Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/) | :yellow_heart: | [C++](solutions/1476/c++/solution.cpp)
 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | :green_heart: | [C++](solutions/1480/c++/solution.cpp)
