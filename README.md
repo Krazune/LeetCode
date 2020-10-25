@@ -229,6 +229,7 @@ Solutions for the LeetCode problems.
 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | :green_heart: | [C++](solutions/1207/c++/solution.cpp)
 1221 | [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | :green_heart: | [C](solutions/1221/c/solution.c)
 1227 | [Airplane Seat Assignment Probability](https://leetcode.com/problems/airplane-seat-assignment-probability) | :yellow_heart: | [C++](solutions/1227/c++/solution.cpp)
+1252 | [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/) | :green_heart: | [C++](solutions/1252/c++/solution.cpp)
 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | :green_heart: | [C](solutions/1281/c/solution.c)
 1282 | [Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/) | :yellow_heart: | [JavaScript](solutions/1282/js/solution.js)
 1290 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | :green_heart: | [JavaScript](solutions/1290/js/solution.js)
