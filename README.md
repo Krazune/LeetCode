@@ -238,6 +238,7 @@ Solutions for the LeetCode problems.
 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | :green_heart: | [C++](solutions/1342/c++/solution.cpp) / [JavaScript](solutions/1342/js/solution.js)
 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | :green_heart: | [C++](solutions/1365/c++/solution.cpp) / [JS](solutions/1365/js/solution.js)
 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | :yellow_heart: | [C++](solutions/1379/c++/solution.cpp) / [JavaScript](solutions/1379/js/solution.js)
+1380 | [Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) | :green_heart: | [C++](solutions/1380/c++/solution.cpp)
 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | :green_heart: | [C](solutions/1417/c/solution.c)
 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | :green_heart: | [C++](solutions/1431/c++/solution.cpp)
 1436 | [Destination City](https://leetcode.com/problems/destination-city/) | :green_heart: | [C++](solutions/1436/c++/solution.cpp)
