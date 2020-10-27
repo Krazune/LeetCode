@@ -195,6 +195,7 @@ Solutions for the LeetCode problems.
 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/) | :green_heart: | [C++](solutions/884/c++/solution.cpp)
 890 | [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/) | :yellow_heart: | [C++](solutions/890/c++/solution.cpp)
 896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array/) | :green_heart: | [C](solutions/896/c/solution.c)
+897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | :green_heart: | [C++](solutions/897/c++/solution.cpp)
 905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | :green_heart: | [C++](solutions/905/c++/solution.cpp)
 908 | [Smallest Range I](https://leetcode.com/problems/smallest-range-i/) | :green_heart: | [C](solutions/908/c/solution.c)
 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | :yellow_heart: | [C++](solutions/912/c++/solution.cpp)
