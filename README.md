@@ -235,6 +235,7 @@ Solutions for the LeetCode problems.
 1282 | [Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/) | :yellow_heart: | [JavaScript](solutions/1282/js/solution.js)
 1290 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | :green_heart: | [JavaScript](solutions/1290/js/solution.js)
 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | :green_heart: | [C](solutions/1295/c/solution.c)
+1309 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | :green_heart: | [C++](solutions/1309/c++/solution.cpp)
 1313 | [Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | :green_heart: | [C](solutions/1313/c/solution.c)
 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | :green_heart: | [C++](solutions/1342/c++/solution.cpp) / [JavaScript](solutions/1342/js/solution.js)
 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | :green_heart: | [C++](solutions/1365/c++/solution.cpp) / [JS](solutions/1365/js/solution.js)
