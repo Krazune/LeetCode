@@ -252,6 +252,7 @@ Solutions for the LeetCode problems.
 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | :green_heart: | [C](solutions/1528/c/solution.c) / [C++](solutions/1528/c++/solution.cpp) / [JavaScript](solutions/1528/js/solution.js)
 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) | :green_heart: | [C++](solutions/1572/c++/solution.cpp) / [JavaScript](solutions/1572/js/solution.js)
 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | :green_heart: | [C++](solutions/1588/c++/solution.cpp)
+1592 | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/) | :green_heart: | [C++](solutions/1592/c++/solution.cpp)
 1598 | [Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder/) | :green_heart: | [C++](solutions/1598/c++/solution.cpp)
 1603 | [Design Parking System](https://leetcode.com/problems/design-parking-system/) | :green_heart: | [JavaScript](solutions/1603/js/solution.js)
 1614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | :green_heart: | [C++](solutions/1614/c++/solution.cpp)
