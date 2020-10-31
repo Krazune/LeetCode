@@ -250,6 +250,7 @@ Solutions for the LeetCode problems.
 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | :green_heart: | [C++](solutions/1480/c++/solution.cpp)
 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | :green_heart: | [C++](solutions/1486/c++/solution.cpp) / [JavaScript](solutions/1486/js/solution.js)
 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | :green_heart: | [C](solutions/1528/c/solution.c) / [C++](solutions/1528/c++/solution.cpp) / [JavaScript](solutions/1528/js/solution.js)
+1556 | [Thousand Separator](https://leetcode.com/problems/thousand-separator/) | :green_heart: | [C++](solutions/1556/c++/solution.cpp)
 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) | :green_heart: | [C++](solutions/1572/c++/solution.cpp) / [JavaScript](solutions/1572/js/solution.js)
 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | :green_heart: | [C++](solutions/1588/c++/solution.cpp)
 1592 | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/) | :green_heart: | [C++](solutions/1592/c++/solution.cpp)
