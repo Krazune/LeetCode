@@ -258,5 +258,6 @@ Solutions for the LeetCode problems.
 1598 | [Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder/) | :green_heart: | [C++](solutions/1598/c++/solution.cpp)
 1603 | [Design Parking System](https://leetcode.com/problems/design-parking-system/) | :green_heart: | [JavaScript](solutions/1603/js/solution.js)
 1614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | :green_heart: | [C++](solutions/1614/c++/solution.cpp)
+1637 | [Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/) | :yellow_heart: | [C++](solutions/1637/c++/solution.cpp)
 
 :green_heart: - Easy problem; :yellow_heart: - Medium problem; :heart: - Hard problem.
