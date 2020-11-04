@@ -237,6 +237,7 @@ Solutions for the LeetCode problems.
 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | :green_heart: | [C](solutions/1295/c/solution.c)
 1309 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | :green_heart: | [C++](solutions/1309/c++/solution.cpp)
 1313 | [Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | :green_heart: | [C](solutions/1313/c/solution.c)
+1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | :green_heart: | [C++](solutions/1323/c++/solution.cpp)
 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | :green_heart: | [C++](solutions/1342/c++/solution.cpp) / [JavaScript](solutions/1342/js/solution.js)
 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | :green_heart: | [C++](solutions/1365/c++/solution.cpp) / [JS](solutions/1365/js/solution.js)
 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | :yellow_heart: | [C++](solutions/1379/c++/solution.cpp) / [JavaScript](solutions/1379/js/solution.js)
