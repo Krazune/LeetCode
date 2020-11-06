@@ -235,6 +235,7 @@ Solutions for the LeetCode problems.
 1282 | [Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/) | :yellow_heart: | [JavaScript](solutions/1282/js/solution.js)
 1290 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | :green_heart: | [JavaScript](solutions/1290/js/solution.js)
 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | :green_heart: | [C](solutions/1295/c/solution.c)
+1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | :green_heart: | [C++](solutions/1304/c++/solution.cpp)
 1309 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | :green_heart: | [C++](solutions/1309/c++/solution.cpp)
 1313 | [Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | :green_heart: | [C](solutions/1313/c/solution.c)
 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | :green_heart: | [C++](solutions/1323/c++/solution.cpp) / [JavaScript](solutions/1323/js/solution.js)
