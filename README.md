@@ -246,6 +246,7 @@ Solutions for the LeetCode problems.
 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | :green_heart: | [C](solutions/1417/c/solution.c)
 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | :green_heart: | [C++](solutions/1431/c++/solution.cpp)
 1436 | [Destination City](https://leetcode.com/problems/destination-city/) | :green_heart: | [C++](solutions/1436/c++/solution.cpp)
+1455 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence] | :green_heart: | [C++](solutions/1455/c++/solution.cpp)
 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | :green_heart: | [C++](solutions/1464/c++/solution.cpp)
 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | :green_heart: | [C++](solutions/1470/c++/solution.cpp)
 1476 | [Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/) | :yellow_heart: | [C++](solutions/1476/c++/solution.cpp)
