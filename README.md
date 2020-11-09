@@ -227,6 +227,7 @@ Solutions for the LeetCode problems.
 1089 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) | :green_heart: | [C++](solutions/1089/c++/solution.cpp)
 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | :green_heart: | [C](solutions/1108/c/solution.c) / [C++](solutions/1108/c++/solution.cpp)
 1154 | [Day of the Year](https://leetcode.com/problems/day-of-the-year/) | :green_heart: | [C++](solutions/1154/c++/solution.cpp)
+1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | :green_heart: | [C++](solutions/1189/c++/solution.cpp)
 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | :green_heart: | [C++](solutions/1207/c++/solution.cpp)
 1221 | [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | :green_heart: | [C](solutions/1221/c/solution.c)
 1227 | [Airplane Seat Assignment Probability](https://leetcode.com/problems/airplane-seat-assignment-probability) | :yellow_heart: | [C++](solutions/1227/c++/solution.cpp)
