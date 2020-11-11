@@ -257,6 +257,7 @@ Solutions for the LeetCode problems.
 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | :green_heart: | [C++](solutions/1486/c++/solution.cpp) / [JavaScript](solutions/1486/js/solution.js)
 1496 | [Path Crossing](https://leetcode.com/problems/path-crossing/) | :green_heart: | [C++](solutions/1496/c++/solution.cpp)
 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) | :green_heart: | [C++](solutions/1512/c++/solution.cpp)
+1518 | [Water Bottles](https://leetcode.com/problems/water-bottles/) | :green_heart: | [C++](solutions/1518/c++/solution.cpp)
 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | :green_heart: | [C](solutions/1528/c/solution.c) / [C++](solutions/1528/c++/solution.cpp) / [JavaScript](solutions/1528/js/solution.js)
 1556 | [Thousand Separator](https://leetcode.com/problems/thousand-separator/) | :green_heart: | [C++](solutions/1556/c++/solution.cpp)
 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) | :green_heart: | [C++](solutions/1572/c++/solution.cpp) / [JavaScript](solutions/1572/js/solution.js)
