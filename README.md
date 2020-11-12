@@ -235,6 +235,7 @@ Solutions for the LeetCode problems.
 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | :green_heart: | [C++](solutions/1260/c++/solution.cpp)
 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | :green_heart: | [C](solutions/1281/c/solution.c)
 1282 | [Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/) | :yellow_heart: | [JavaScript](solutions/1282/js/solution.js)
+1287 | [Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/) | :green_heart: | [C++](solutions/1287/c++/solution.cpp)
 1290 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | :green_heart: | [JavaScript](solutions/1290/js/solution.js)
 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | :green_heart: | [C](solutions/1295/c/solution.c)
 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | :green_heart: | [C++](solutions/1304/c++/solution.cpp)
