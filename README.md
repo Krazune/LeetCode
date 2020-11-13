@@ -103,6 +103,7 @@ Solutions for the LeetCode problems.
 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | :green_heart: | [C++](solutions/405/c++/solution.cpp)
 409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | :green_heart: | [C](solutions/409/c/solution.c)
 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | :green_heart: | [C++](solutions/412/c++/solution.cpp) / [C#](solutions/412/c%23/solution.cs)
+414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | :green_heart: | [C++](solutions/414/c++/solution.cpp)
 429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | :green_heart: | [C++](solutions/429/c++/solution.cpp)
 430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | :yellow_heart: | [Java](solutions/430/java/Solution.java)
 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/) | :green_heart: | [C++](solutions/434/c++/solution.cpp)
