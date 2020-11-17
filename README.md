@@ -217,6 +217,7 @@ Solutions for the LeetCode problems.
 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | :green_heart: | [C++](solutions/965/c++/solution.cpp)
 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | :green_heart: | [C++](solutions/977/c++/solution.cpp)
 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | :green_heart: | [C++](solutions/993/c++/solution.cpp)
+997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | :green_heart: | [C++](solutions/997/c++/solution.cpp)
 999 | [Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | :green_heart: | [C++](solutions/999/c++/solution.cpp)
 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters/) | :green_heart: | [C++](solutions/1002/c++/solution.cpp)
 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | :yellow_heart: | [Java](solutions/1008/java/Solution.java)
