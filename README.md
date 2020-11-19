@@ -115,6 +115,7 @@ Solutions for the LeetCode problems.
 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/) | :green_heart: | [C++](solutions/463/c++/solution.cpp)
 476 | [Number Complement](https://leetcode.com/problems/number-complement/) | :green_heart: | [C](solutions/476/c/solution.c)
 478 | [Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/) | :yellow_heart: | [C++](solutions/478/c++/solution.cpp) / [JavaScript](solutions/478/js/solution.js)
+482 | [License Key Formatting](https://leetcode.com/problems/license-key-formatting/) | :green_heart: | [C++](solutions/482/c++/solution.cpp)
 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | :green_heart: | [C++](solutions/485/c++/solution.cpp)
 495 | [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/) | :yellow_heart: | [C](solutions/495/c/solution.c) / [C++](solutions/495/c++/solution.cpp)
 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | :green_heart: | [C++](solutions/496/c++/solution.cpp)
