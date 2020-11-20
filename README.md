@@ -29,6 +29,7 @@ Solutions for the LeetCode problems.
 71 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | :yellow_heart: | [Java](solutions/71/java/Solution.java)
 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | :yellow_heart: | [C](solutions/75/c/solution.c)
 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | :green_heart: | [C](solutions/83/c/solution.c)
+88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | :green_heart: | [C++](solutions/88/c++/solution.cpp)
 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | :yellow_heart: | [C++](solutions/94/c++/solution.cpp)
 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | :yellow_heart: | [C++](solutions/98/c++/solution.cpp)
 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | :green_heart: | [C](solutions/100/c/solution.c)
