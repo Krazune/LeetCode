@@ -267,7 +267,7 @@ Solutions for the LeetCode problems.
 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) | :green_heart: | [C++](solutions/1512/c++/solution.cpp)
 1518 | [Water Bottles](https://leetcode.com/problems/water-bottles/) | :green_heart: | [C++](solutions/1518/c++/solution.cpp)
 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | :green_heart: | [C](solutions/1528/c/solution.c) / [C++](solutions/1528/c++/solution.cpp) / [JavaScript](solutions/1528/js/solution.js)
-1539 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/) | :green_heart: | [C++](solutions/1539/c++/soluton.cpp)
+1539 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/) | :green_heart: | [C++](solutions/1539/c++/solution.cpp)
 1556 | [Thousand Separator](https://leetcode.com/problems/thousand-separator/) | :green_heart: | [C++](solutions/1556/c++/solution.cpp)
 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) | :green_heart: | [C++](solutions/1572/c++/solution.cpp) / [JavaScript](solutions/1572/js/solution.js)
 1576 | [Replace All ?'s to Avoid Consecutive Repeating Characters](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) | :green_heart: | [C++](solutions/1576/c++/solution.cpp)
