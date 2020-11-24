@@ -280,5 +280,6 @@ Solutions for the LeetCode problems.
 1614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | :green_heart: | [C++](solutions/1614/c++/solution.cpp)
 1624 | [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/) | :green_heart: | [C++](solutions/1624/c++/solution.cpp)
 1637 | [Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/) | :yellow_heart: | [C++](solutions/1637/c++/solution.cpp)
+1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | :green_heart: | [C++](solutions/1662/c++/solution.cpp)
 
 :green_heart: - Easy problem; :yellow_heart: - Medium problem; :heart: - Hard problem.
