@@ -218,6 +218,7 @@ Solutions for the LeetCode problems.
 953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | :green_heart: | [C++](solutions/953/c++/solution.cpp)
 961 | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | :green_heart: | [C](solutions/961/c/solution.c) / [C++](solutions/961/c++/solution.cpp)
 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | :green_heart: | [C++](solutions/965/c++/solution.cpp)
+976 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | :green_heart: | [C++](solutions/976/c++/solution.cpp)
 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | :green_heart: | [C++](solutions/977/c++/solution.cpp)
 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | :green_heart: | [C++](solutions/993/c++/solution.cpp)
 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | :green_heart: | [C++](solutions/997/c++/solution.cpp)
