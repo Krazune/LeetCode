@@ -139,6 +139,7 @@ Solutions for the LeetCode problems.
 590 | [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | :green_heart: | [C++](solutions/590/c++/solution.cpp)
 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | :green_heart: | [MySQL](solutions/595/mysql/solution.sql)
 596 | [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/) | :green_heart: | [MySQL](solutions/596/mysql/solution.sql)
+598 | [Range Addition II](https://leetcode.com/problems/range-addition-ii/) | :green_heart: | [C++](solutions/598/c++/solution.cpp)
 599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | :green_heart: | [C++](solutions/599/c++/solution.cpp)
 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | :green_heart: | [C++](solutions/606/c++/solution.cpp)
 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | :green_heart: | [C++](solutions/617/c++/solution.cpp)
