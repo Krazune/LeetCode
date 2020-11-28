@@ -148,6 +148,7 @@ Solutions for the LeetCode problems.
 627 | [Swap Salary](https://leetcode.com/problems/swap-salary/) | :green_heart: | [MySQL](solutions/627/mysql/solution.sql)
 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | :green_heart: | [C++](solutions/628/c++/solution.cpp)
 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | :green_heart: | [C++](solutions/637/c++/solution.cpp)
+643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | :green_heart: | [C++](solutions/643/c++/solution.cpp)
 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | :green_heart: | [C++](solutions/653/c++/solution.cpp)
 654 | [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | :yellow_heart: | [C++](solutions/654/c++/solution.cpp)
 657 | [Judge Route Circle](https://leetcode.com/problems/judge-route-circle/) | :green_heart: | [C#](solutions/657/c%23/solution.cs)
