@@ -288,5 +288,6 @@ Solutions for the LeetCode problems.
 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | :green_heart: | [C++](solutions/1662/c++/solution.cpp)
 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | :green_heart: | [C++](solutions/1672/c++/solution.cpp)
 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | :green_heart: | [Java](solutions/1678/java/Solution.java)
+1704 | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | :green_heart: | [Java](solutions/1704/java/Solution.java)
 
 :green_heart: - Easy problem; :yellow_heart: - Medium problem; :heart: - Hard problem.
