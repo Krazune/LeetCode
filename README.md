@@ -289,7 +289,7 @@ Solutions for the LeetCode problems.
 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | :green_heart: | [C++](solutions/1672/c++/solution.cpp)
 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | :green_heart: | [Java](solutions/1678/java/Solution.java)
 1704 | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | :green_heart: | [Java](solutions/1704/java/Solution.java)
-1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) | :green_heart: | [C++](solutions/1748/c++/solution.cpp)
+1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) | :green_heart: | [C++](solutions/1748/c++/solution.cpp) / [JavaScript](solutions/1748/js/solution.js)
 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | :green_heart: | [C++](solutions/1768/c++/solution.cpp) / [Java](solutions/1768/java/Solution.java) / [JavaScript](solutions/1768/js/solution.js)
 1773 | [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/) | :green_heart: | [C++](solutions/1773/c++/solution.cpp) / [Java](solutions/1773/java/Solution.java) / [JavaScript](solutions/1773/js/solution.js)
 
