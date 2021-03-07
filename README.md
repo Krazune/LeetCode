@@ -294,6 +294,6 @@ Solutions for the LeetCode problems.
 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | :green_heart: | [C++](solutions/1758/c++/solution.cpp) / [Java](solutions/1758/java/Solution.java) / [JavaScript](solutions/1758/js/solution.js)
 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | :green_heart: | [C++](solutions/1768/c++/solution.cpp) / [Java](solutions/1768/java/Solution.java) / [JavaScript](solutions/1768/js/solution.js)
 1773 | [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/) | :green_heart: | [C++](solutions/1773/c++/solution.cpp) / [Java](solutions/1773/java/Solution.java) / [JavaScript](solutions/1773/js/solution.js)
-1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | :green_heart: | [Java](solutions/1784/java/Solution.java)
+1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | :green_heart: | [C++](solutions/1784/c++/solution.cpp) / [Java](solutions/1784/java/Solution.java)
 
 :green_heart: - Easy problem; :yellow_heart: - Medium problem; :heart: - Hard problem.
