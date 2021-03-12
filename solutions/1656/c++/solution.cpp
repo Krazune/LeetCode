@@ -6,9 +6,6 @@ using namespace std;
 
 class OrderedStream
 {
-	vector<string> stream;
-	int currentChunkIndex = 0;
-
 	public:
 	OrderedStream(int n) : stream(n, "") {}
 
@@ -30,4 +27,8 @@ class OrderedStream
 
 		return chunk;
 	}
+
+	private:
+	vector<string> stream;
+	int currentChunkIndex = 0;
 };
