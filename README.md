@@ -285,6 +285,7 @@ Solutions for the LeetCode problems.
 1624 | [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/) | :green_heart: | [C++](solutions/1624/c++/solution.cpp)
 1637 | [Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/) | :yellow_heart: | [C++](solutions/1637/c++/solution.cpp)
 1646 | [Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/) | :green_heart: | [C++](/solutions/1646/c++/solution.cpp)
+1656 | [Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/) | :green_heart: | [C++](solutions/1656/c++/solution.cpp)
 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | :green_heart: | [C++](solutions/1662/c++/solution.cpp)
 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | :green_heart: | [C++](solutions/1672/c++/solution.cpp)
 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | :green_heart: | [Java](solutions/1678/java/Solution.java)
