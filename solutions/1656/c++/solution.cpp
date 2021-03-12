@@ -30,6 +30,4 @@ class OrderedStream
 
 		return chunk;
 	}
-
-	private:
 };
