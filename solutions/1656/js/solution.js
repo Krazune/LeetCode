@@ -1,7 +1,7 @@
 // 1656. Design an Ordered Stream
 var OrderedStream = function(n)
 {
-	this.stream = new Array(n).fill("");
+	this.stream = new Array(n);
 	this.currentChunkIndex = 0;
 };
 
@@ -13,7 +13,7 @@ OrderedStream.prototype.insert = function(idKey, value)
 
 	for (; this.currentChunkIndex < this.stream.length; ++this.currentChunkIndex)
 	{
-		if (this.stream[this.currentChunkIndex] == "")
+		if (this.stream[this.currentChunkIndex] === undefined)
 		{
 			break;
 		}
