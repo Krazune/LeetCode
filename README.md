@@ -290,6 +290,7 @@ Solutions for the LeetCode problems.
 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | :green_heart: | [C++](solutions/1672/c++/solution.cpp)
 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | :green_heart: | [Java](solutions/1678/java/Solution.java)
 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/) | :green_heart: | [C++](solutions/1684/c++/solution.cpp) / [Java](solutions/1684/java/Solution.java) / [JavaScript](solutions/1684/js/solution.js)
+1694 | [Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/) | :green_heart: | [C++](solutions/1694/c++/solution.cpp)
 1704 | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | :green_heart: | [Java](solutions/1704/java/Solution.java)
 1732 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | :green_heart: | [C++](solutions/1732/c++/solution.cpp) / [Java](solutions/1732/java/Solution.java) / [JavaScript](solutions/1732/js/solution.js)
 1736 | [Latest Time by Replacing Hidden Digits](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/) | :green_heart: | [C++](solutions/1736/c++/solution.cpp) / [Java](solutions/1736/java/Solution.java) / [JavaScript](solutions/1736/js/solution.js)
