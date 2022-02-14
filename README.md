@@ -37,7 +37,7 @@ Solutions for the LeetCode problems.
 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | :green_heart: | [C++](solutions/101/c++/solution.cpp)
 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | :yellow_heart: | [C++](solutions/102/c++/solution.cpp)
 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | :yellow_heart: | [C++](solutions/103/c++/solution.cpp)
-104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | :green_heart: | [C](solutions/104/c/solution.c)
+104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | :green_heart: | [C](solutions/104/c/solution.c) / [Java](solutions/104/java/Solution.java)
 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | :yellow_heart: | [C++](solutions/105/c++/solution.cpp)
 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | :yellow_heart: | [C++](solutions/106/c++/solution.cpp)
 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | :green_heart: | [C++](solutions/107/c++/solution.cpp)
