@@ -238,6 +238,7 @@ Solutions for the LeetCode problems.
 1114 | [Print in Order](https://leetcode.com/problems/print-in-order/) | :green_heart: | [Java](solutions/1114/java/Foo.java)
 1115 | [Print FooBar Alternately](https://leetcode.com/problems/print-foobar-alternately/) | :green_heart: | [Java](solutions/1115/java/FooBar.java)
 1116 | [Print Zero Even Odd](https://leetcode.com/problems/print-zero-even-odd/) | :yellow_heart: | [Java](solutions/1116/java/ZeroEvenOdd.java)
+1117 | [Building H2O](https://leetcode.com/problems/building-h2o/) | :yellow_heart: | [Java](solutions/1117/java/ZeroEvenOdd.java)
 1154 | [Day of the Year](https://leetcode.com/problems/day-of-the-year/) | :green_heart: | [C++](solutions/1154/c++/solution.cpp)
 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | :green_heart: | [C++](solutions/1189/c++/solution.cpp)
 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | :green_heart: | [C++](solutions/1207/c++/solution.cpp)
