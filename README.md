@@ -137,6 +137,7 @@ Solutions for the LeetCode problems.
 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | :green_heart: | [C++](solutions/575/c++/solution.cpp)
 589 | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | :green_heart: | [C++](solutions/589/c++/solution.cpp)
 590 | [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | :green_heart: | [C++](solutions/590/c++/solution.cpp)
+594 | [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/) | :green_heart: | [Java](solutions/594/java/Solution.java)
 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | :green_heart: | [MySQL](solutions/595/mysql/solution.sql)
 596 | [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/) | :green_heart: | [MySQL](solutions/596/mysql/solution.sql)
 598 | [Range Addition II](https://leetcode.com/problems/range-addition-ii/) | :green_heart: | [C++](solutions/598/c++/solution.cpp)
