@@ -308,5 +308,6 @@ Solutions for the LeetCode problems.
 1773 | [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/) | :green_heart: | [C++](solutions/1773/c++/solution.cpp) / [Java](solutions/1773/java/Solution.java) / [JavaScript](solutions/1773/js/solution.js)
 1779 | [Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/) | :green_heart: | [C++](solutions/1779/c++/solution.cpp) / [Java](solutions/1779/java/Solution.java) / [JavaScript](solutions/1779/js/solution.js)
 1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | :green_heart: | [C++](solutions/1784/c++/solution.cpp) / [Java](solutions/1784/java/Solution.java) / [JavaScript](solutions/1784/js/solution.js)
+2278 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | :green_heart: | [Java](solutions/2278/java/Solution.java)
 
 :green_heart: - Easy problem; :yellow_heart: - Medium problem; :heart: - Hard problem.
