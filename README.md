@@ -50,7 +50,7 @@ Solutions for the LeetCode problems.
 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | :green_heart: | [C++](solutions/125/c++/solution.cpp)
 136 | [Single Number](https://leetcode.com/problems/single-number/) | :green_heart: | [C](solutions/136/c/solution.c)
 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | :green_heart: | [C](solutions/141/c/solution.c)
-144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | :yellow_heart: | [C++](solutions/144/c++/solution.cpp / [Java](solutions/solutions/144/c++/Solution.java))
+144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | :yellow_heart: | [C++](solutions/144/c++/solution.cpp / [Java](solutions/solutions/144/c++/Solution.java)
 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | :heart: | [C++](solutions/145/c++/solution.cpp)
 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | :yellow_heart: | [C++](solutions/150/c++/solution.cpp)
 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | :yellow_heart: | [C++](solutions/153/c++/solution.cpp)
