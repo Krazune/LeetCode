@@ -51,7 +51,7 @@ Solutions for the LeetCode problems.
 136 | [Single Number](https://leetcode.com/problems/single-number/) | :green_heart: | [C](solutions/136/c/solution.c)
 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | :green_heart: | [C](solutions/141/c/solution.c)
 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | :green_heart: | [C++](solutions/144/c++/solution.cpp) / [Java](solutions/144/java/Solution.java)
-145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | :green_heart: | [C++](solutions/145/c++/solution.cpp)
+145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | :green_heart: | [C++](solutions/145/c++/solution.cpp) / [Java](solutions/145/java/Solution.java)
 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | :yellow_heart: | [C++](solutions/150/c++/solution.cpp)
 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | :yellow_heart: | [C++](solutions/153/c++/solution.cpp)
 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | :heart: | [C++](solutions/154/c++/solution.cpp)
